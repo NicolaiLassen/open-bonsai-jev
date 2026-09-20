@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="370" viewBox="0 0 720 370" role="img" aria-label="Decision quality: WANLI-256">
+  <style>
+    :root { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --ink3:#84837d; --grid:#e4e3df; --s1:#2a78d6; --s2:#eb6834; --t0:#86b6ef; --t1:#3987e5; --t2:#1c5cab; --s3:#1baf7a; }
+    @media (prefers-color-scheme: dark) {
+    :root { --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --ink3:#8a897f; --grid:#33322f; --s1:#3987e5; --s2:#d95926; --t0:#9ec5f4; --t1:#3987e5; --t2:#184f95; --s3:#199e70; }
+    }
+    .bg { fill: var(--surface); }
+    .ttl { fill: var(--ink); font: 600 15px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .sub { fill: var(--ink2); font: 400 11.5px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .lab { fill: var(--ink); font: 400 12px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .val { fill: var(--ink); font: 600 12px ui-monospace, "SF Mono", Menlo, monospace; }
+    .tick { fill: var(--ink3); font: 400 10.5px ui-monospace, "SF Mono", Menlo, monospace; }
+    .note { fill: var(--ink3); font: 400 10.5px -apple-system, system-ui, sans-serif; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--ink3); stroke-width: 1; }
+    .ref  { stroke: var(--ink3); stroke-width: 1; stroke-dasharray: 4 3; }
+    .refh { stroke: var(--s3); stroke-width: 2; stroke-dasharray: 7 4; }
+    .noteh { fill: var(--s3); font: 600 11.5px -apple-system, system-ui, sans-serif; }
+    .g1 { fill: var(--s1); }  .g2 { fill: var(--s2); }
+    .g0 { fill: var(--s3); }
+    .tier0 { fill: var(--t0); } .tier1 { fill: var(--t1); } .tier2 { fill: var(--t2); }
+    .g1s { stroke: var(--s1); } .g2s { stroke: var(--s2); }
+    .g0s { stroke: var(--s3); }
+  </style>
+  <rect class="bg" width="720" height="370" rx="8"/>
+  <text x="24" y="30" class="ttl">Decision quality: WANLI-256</text>
+  <text x="24" y="48" class="sub">Balanced 3-way natural-language inference. One forward pass per question.</text>
+<rect x="186" y="58" width="10" height="10" rx="2.5" class="g1"/><text x="201" y="67" class="sub">Bonsai 1</text><rect x="256" y="58" width="10" height="10" rx="2.5" class="g2"/><text x="271" y="67" class="sub">Bonsai 2</text><rect x="326" y="58" width="10" height="10" rx="2.5" class="g0"/><text x="341" y="67" class="sub">Jev (hosted)</text><line class="grid" x1="186.0" y1="98" x2="186.0" y2="308"/><text x="186.0" y="324" class="tick" text-anchor="middle">0%</text><line class="grid" x1="301.0" y1="98" x2="301.0" y2="308"/><text x="301.0" y="324" class="tick" text-anchor="middle">25%</text><line class="grid" x1="416.0" y1="98" x2="416.0" y2="308"/><text x="416.0" y="324" class="tick" text-anchor="middle">50%</text><line class="grid" x1="531.0" y1="98" x2="531.0" y2="308"/><text x="531.0" y="324" class="tick" text-anchor="middle">75%</text><line class="grid" x1="646.0" y1="98" x2="646.0" y2="308"/><text x="646.0" y="324" class="tick" text-anchor="middle">100%</text><text x="174" y="117" class="lab" text-anchor="end">Bonsai 1 1.7B</text><path class="g1" d="M186 105 H420.984375 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H186 Z"/><text x="432.984375" y="117" class="val">52.0%</text><text x="174" y="147" class="lab" text-anchor="end">Bonsai 1 4B</text><path class="g1" d="M186 135 H458.71875 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H186 Z"/><text x="470.71875" y="147" class="val">60.2%</text><text x="174" y="177" class="lab" text-anchor="end">Bonsai 1 8B</text><path class="g1" d="M186 165 H478.484375 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H186 Z"/><text x="490.484375" y="177" class="val">64.5%</text><text x="174" y="207" class="lab" text-anchor="end">Bonsai 1 27B</text><path class="g1" d="M186 195 H509.03125 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H186 Z"/><text x="521.03125" y="207" class="val">71.1%</text><text x="174" y="237" class="lab" text-anchor="end">Ternary Bonsai 1 8B</text><path class="g1" d="M186 225 H482.078125 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H186 Z"/><text x="494.078125" y="237" class="val">65.2%</text><text x="174" y="267" class="lab" text-anchor="end">Bonsai 2 27B</text><path class="g2" d="M186 255 H525.203125 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H186 Z"/><text x="537.203125" y="267" class="val">74.6%</text><text x="174" y="297" class="lab" text-anchor="end">Jev (hosted)</text><path class="g0" d="M186 285 H548.5625 a4 4 0 0 1 4 4 v6 a4 4 0 0 1 -4 4 H186 Z"/><text x="560.5625" y="297" class="val">79.7%</text><line class="axis" x1="186" y1="98" x2="186" y2="308"/><line class="ref" x1="339.3" y1="92" x2="339.3" y2="308"/><text x="339.3" y="88" class="note" text-anchor="middle">chance 33%</text><line class="ref" x1="479.0" y1="92" x2="479.0" y2="308"/><text x="479.0" y="88" class="note" text-anchor="middle">SemIf Qwen3.5-4B 63.7%</text><text x="24" y="356" class="note">Higher is better. Measured on this repo&#8217;s eval file; see README for method.</text></svg>

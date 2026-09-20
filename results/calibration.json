@@ -1,0 +1,784 @@
+{
+  "eval": "wanli256",
+  "method": "temperature on option logits",
+  "protocol": "fitted on odd rows, error reported on even rows",
+  "models": {
+    "Bonsai-1.7B": {
+      "temperature": 3.7,
+      "smoothing": 0.5,
+      "accuracy": 0.5195,
+      "ece_raw": 0.1717,
+      "ece_calibrated": 0.0977,
+      "ece_smoothed": 0.0544,
+      "n": 256,
+      "reliability_raw": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 72,
+          "confidence": 0.4361887222222221,
+          "accuracy": 0.5138888888888888
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 41,
+          "confidence": 0.5480762195121951,
+          "accuracy": 0.3902439024390244
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 37,
+          "confidence": 0.6497795945945947,
+          "accuracy": 0.5945945945945946
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 36,
+          "confidence": 0.7462663611111109,
+          "accuracy": 0.5
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 33,
+          "confidence": 0.8509567272727271,
+          "accuracy": 0.5757575757575758
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 37,
+          "confidence": 0.9394975675675677,
+          "accuracy": 0.5675675675675675
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ],
+      "reliability_calibrated": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 199,
+          "confidence": 0.40660610168948996,
+          "accuracy": 0.48743718592964824
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 51,
+          "confidence": 0.5516519208410291,
+          "accuracy": 0.6078431372549019
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 6,
+          "confidence": 0.6440592341880752,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ]
+    },
+    "Bonsai-27B": {
+      "temperature": 1.85,
+      "smoothing": 0.23,
+      "accuracy": 0.7109,
+      "ece_raw": 0.1001,
+      "ece_calibrated": 0.0571,
+      "ece_smoothed": 0.049,
+      "n": 256,
+      "reliability_raw": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 30,
+          "confidence": 0.45500619999999986,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 33,
+          "confidence": 0.5573562424242424,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 27,
+          "confidence": 0.6509960370370372,
+          "accuracy": 0.5925925925925926
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 23,
+          "confidence": 0.7626638695652173,
+          "accuracy": 0.6956521739130435
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 23,
+          "confidence": 0.8586725217391303,
+          "accuracy": 0.782608695652174
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 111,
+          "confidence": 0.9636065945945945,
+          "accuracy": 0.8018018018018018
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 9,
+          "confidence": 0.9922433333333333,
+          "accuracy": 1.0
+        }
+      ],
+      "reliability_calibrated": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 72,
+          "confidence": 0.43999481508423166,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 36,
+          "confidence": 0.550524801988492,
+          "accuracy": 0.6111111111111112
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 27,
+          "confidence": 0.6511287205310237,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 39,
+          "confidence": 0.7549993734683105,
+          "accuracy": 0.717948717948718
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 74,
+          "confidence": 0.8584060745830265,
+          "accuracy": 0.8513513513513513
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 8,
+          "confidence": 0.9117163187106754,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ]
+    },
+    "Bonsai-4B": {
+      "temperature": 2.35,
+      "smoothing": 0.5,
+      "accuracy": 0.6016,
+      "ece_raw": 0.2151,
+      "ece_calibrated": 0.0631,
+      "ece_smoothed": 0.0619,
+      "n": 256,
+      "reliability_raw": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 14,
+          "confidence": 0.43281314285714284,
+          "accuracy": 0.2857142857142857
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 26,
+          "confidence": 0.5460097307692308,
+          "accuracy": 0.5
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 25,
+          "confidence": 0.66316424,
+          "accuracy": 0.68
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 46,
+          "confidence": 0.7528994130434782,
+          "accuracy": 0.5217391304347826
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 47,
+          "confidence": 0.8537592553191491,
+          "accuracy": 0.46808510638297873
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 98,
+          "confidence": 0.9454521938775509,
+          "accuracy": 0.7551020408163265
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ],
+      "reliability_calibrated": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 53,
+          "confidence": 0.4378299824406409,
+          "accuracy": 0.49056603773584906
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 76,
+          "confidence": 0.5474890339627403,
+          "accuracy": 0.5394736842105263
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 71,
+          "confidence": 0.6529500541599205,
+          "accuracy": 0.5915492957746479
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 53,
+          "confidence": 0.7472731447059571,
+          "accuracy": 0.7924528301886793
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 3,
+          "confidence": 0.811668482546715,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ]
+    },
+    "Bonsai-8B": {
+      "temperature": 3.85,
+      "smoothing": 0.38,
+      "accuracy": 0.6445,
+      "ece_raw": 0.2384,
+      "ece_calibrated": 0.1064,
+      "ece_smoothed": 0.1127,
+      "n": 256,
+      "reliability_raw": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 2,
+          "confidence": 0.49471750000000003,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 16,
+          "confidence": 0.5439230625,
+          "accuracy": 0.4375
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 23,
+          "confidence": 0.6451812608695652,
+          "accuracy": 0.34782608695652173
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 15,
+          "confidence": 0.7451440666666668,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 28,
+          "confidence": 0.8636408571428571,
+          "accuracy": 0.5
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 67,
+          "confidence": 0.962445358208955,
+          "accuracy": 0.7014925373134329
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 105,
+          "confidence": 0.997466114285714,
+          "accuracy": 0.780952380952381
+        }
+      ],
+      "reliability_calibrated": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 49,
+          "confidence": 0.45926562787178643,
+          "accuracy": 0.3469387755102041
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 50,
+          "confidence": 0.5481553419563804,
+          "accuracy": 0.54
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 54,
+          "confidence": 0.6559147717891302,
+          "accuracy": 0.7407407407407407
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 56,
+          "confidence": 0.750584883497753,
+          "accuracy": 0.7678571428571429
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 46,
+          "confidence": 0.8407312134676903,
+          "accuracy": 0.8043478260869565
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 1,
+          "confidence": 0.9065745861478193,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ]
+    },
+    "Ternary-Bonsai-2-27B": {
+      "temperature": 2.45,
+      "smoothing": 0.28,
+      "accuracy": 0.7461,
+      "ece_raw": 0.1759,
+      "ece_calibrated": 0.0882,
+      "ece_smoothed": 0.135,
+      "n": 256,
+      "reliability_raw": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 5,
+          "confidence": 0.4538133999999999,
+          "accuracy": 0.8
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 13,
+          "confidence": 0.5511747692307692,
+          "accuracy": 0.7692307692307693
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 11,
+          "confidence": 0.6517899090909091,
+          "accuracy": 0.36363636363636365
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 23,
+          "confidence": 0.747822043478261,
+          "accuracy": 0.391304347826087
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 23,
+          "confidence": 0.8681240869565218,
+          "accuracy": 0.6956521739130435
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 122,
+          "confidence": 0.9632944344262294,
+          "accuracy": 0.7950819672131147
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 59,
+          "confidence": 0.995338372881356,
+          "accuracy": 0.864406779661017
+        }
+      ],
+      "reliability_calibrated": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 27,
+          "confidence": 0.44119260537399424,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 31,
+          "confidence": 0.5399543377748366,
+          "accuracy": 0.41935483870967744
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 48,
+          "confidence": 0.6453158906285237,
+          "accuracy": 0.7291666666666666
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 77,
+          "confidence": 0.7612886645942446,
+          "accuracy": 0.7922077922077922
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 71,
+          "confidence": 0.8509837156764782,
+          "accuracy": 0.8732394366197183
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 2,
+          "confidence": 0.9027132505680648,
+          "accuracy": 1.0
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ]
+    },
+    "Ternary-Bonsai-8B": {
+      "temperature": 3.8,
+      "smoothing": 0.45,
+      "accuracy": 0.6523,
+      "ece_raw": 0.2907,
+      "ece_calibrated": 0.098,
+      "ece_smoothed": 0.0295,
+      "n": 256,
+      "reliability_raw": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 11,
+          "confidence": 0.5573553636363636,
+          "accuracy": 0.2727272727272727
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 7,
+          "confidence": 0.6624701428571428,
+          "accuracy": 0.2857142857142857
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 17,
+          "confidence": 0.7530985882352943,
+          "accuracy": 0.47058823529411764
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 21,
+          "confidence": 0.8553033809523811,
+          "accuracy": 0.47619047619047616
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 77,
+          "confidence": 0.9658931688311689,
+          "accuracy": 0.6233766233766234
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 123,
+          "confidence": 0.9975695853658535,
+          "accuracy": 0.7804878048780488
+        }
+      ],
+      "reliability_calibrated": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 22,
+          "confidence": 0.46299162815828504,
+          "accuracy": 0.4090909090909091
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 44,
+          "confidence": 0.5446119668545802,
+          "accuracy": 0.36363636363636365
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 63,
+          "confidence": 0.6574390568472193,
+          "accuracy": 0.6190476190476191
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 61,
+          "confidence": 0.7531761596988418,
+          "accuracy": 0.8032786885245902
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 64,
+          "confidence": 0.8458879917777791,
+          "accuracy": 0.828125
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 2,
+          "confidence": 0.9131638238321095,
+          "accuracy": 0.5
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        }
+      ]
+    },
+    "jev": {
+      "temperature": 1.75,
+      "smoothing": 0.09,
+      "accuracy": 0.7969,
+      "ece_raw": 0.1035,
+      "ece_calibrated": 0.0613,
+      "ece_smoothed": 0.0574,
+      "n": 256,
+      "reliability_raw": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 2,
+          "confidence": 0.475,
+          "accuracy": 0.0
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 14,
+          "confidence": 0.5428571428571429,
+          "accuracy": 0.5
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 23,
+          "confidence": 0.6391304347826086,
+          "accuracy": 0.4782608695652174
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 22,
+          "confidence": 0.7445454545454543,
+          "accuracy": 0.6818181818181818
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 34,
+          "confidence": 0.8461764705882353,
+          "accuracy": 0.7941176470588235
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 60,
+          "confidence": 0.9459999999999995,
+          "accuracy": 0.7833333333333333
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 101,
+          "confidence": 0.9978217821782176,
+          "accuracy": 0.9603960396039604
+        }
+      ],
+      "reliability_calibrated": [
+        {
+          "lo": 0.0,
+          "hi": 0.5,
+          "n": 10,
+          "confidence": 0.4548233367556952,
+          "accuracy": 0.3
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 34,
+          "confidence": 0.5550427884700333,
+          "accuracy": 0.5294117647058824
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 30,
+          "confidence": 0.6575015561937401,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "lo": 0.7,
+          "hi": 0.8,
+          "n": 41,
+          "confidence": 0.7533037840891778,
+          "accuracy": 0.7804878048780488
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 27,
+          "confidence": 0.8440060937763958,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.99,
+          "n": 35,
+          "confidence": 0.9213123694003605,
+          "accuracy": 0.9142857142857143
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.0,
+          "n": 79,
+          "confidence": 0.9999999999992186,
+          "accuracy": 0.9620253164556962
+        }
+      ]
+    }
+  }
+}

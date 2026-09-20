@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="348" viewBox="0 0 720 348" role="img" aria-label="Throughput on WANLI-256">
+  <style>
+    :root { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --ink3:#84837d; --grid:#e4e3df; --s1:#2a78d6; --s2:#eb6834; --t0:#86b6ef; --t1:#3987e5; --t2:#1c5cab; --s3:#1baf7a; }
+    @media (prefers-color-scheme: dark) {
+    :root { --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --ink3:#8a897f; --grid:#33322f; --s1:#3987e5; --s2:#d95926; --t0:#9ec5f4; --t1:#3987e5; --t2:#184f95; --s3:#199e70; }
+    }
+    .bg { fill: var(--surface); }
+    .ttl { fill: var(--ink); font: 600 15px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .sub { fill: var(--ink2); font: 400 11.5px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .lab { fill: var(--ink); font: 400 12px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .val { fill: var(--ink); font: 600 12px ui-monospace, "SF Mono", Menlo, monospace; }
+    .tick { fill: var(--ink3); font: 400 10.5px ui-monospace, "SF Mono", Menlo, monospace; }
+    .note { fill: var(--ink3); font: 400 10.5px -apple-system, system-ui, sans-serif; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--ink3); stroke-width: 1; }
+    .ref  { stroke: var(--ink3); stroke-width: 1; stroke-dasharray: 4 3; }
+    .refh { stroke: var(--s3); stroke-width: 2; stroke-dasharray: 7 4; }
+    .noteh { fill: var(--s3); font: 600 11.5px -apple-system, system-ui, sans-serif; }
+    .g1 { fill: var(--s1); }  .g2 { fill: var(--s2); }
+    .g0 { fill: var(--s3); }
+    .tier0 { fill: var(--t0); } .tier1 { fill: var(--t1); } .tier2 { fill: var(--t2); }
+    .g1s { stroke: var(--s1); } .g2s { stroke: var(--s2); }
+    .g0s { stroke: var(--s3); }
+  </style>
+  <rect class="bg" width="720" height="348" rx="8"/>
+  <text x="24" y="30" class="ttl">Throughput on WANLI-256</text>
+  <text x="24" y="48" class="sub">Apple M4 Pro, GPU (Metal). Model stays loaded; warmup excluded.</text>
+<rect x="186" y="54" width="10" height="10" rx="2.5" class="g1"/><text x="201" y="63" class="sub">Bonsai 1</text><rect x="256" y="54" width="10" height="10" rx="2.5" class="g2"/><text x="271" y="63" class="sub">Bonsai 2</text><rect x="326" y="54" width="10" height="10" rx="2.5" class="g0"/><text x="341" y="63" class="sub">Jev (hosted)</text><line class="grid" x1="186.0" y1="76" x2="186.0" y2="286"/><text x="186.0" y="302" class="tick" text-anchor="middle">10</text><line class="grid" x1="285.6" y1="76" x2="285.6" y2="286"/><text x="285.6" y="302" class="tick" text-anchor="middle">30</text><line class="grid" x1="394.7" y1="76" x2="394.7" y2="286"/><text x="394.7" y="302" class="tick" text-anchor="middle">100</text><line class="grid" x1="494.3" y1="76" x2="494.3" y2="286"/><text x="494.3" y="302" class="tick" text-anchor="middle">300</text><line class="grid" x1="603.4" y1="76" x2="603.4" y2="286"/><text x="603.4" y="302" class="tick" text-anchor="middle">1000</text><text x="174" y="95" class="lab" text-anchor="end">Bonsai 1 1.7B</text><line class="g1s" x1="186.0" y1="91" x2="596.4" y2="91" stroke-width="2" opacity="0.32"/><circle class="g1" cx="596.4" cy="91" r="5.5"/><text x="608.4" y="95" class="val">925</text><text x="174" y="125" class="lab" text-anchor="end">Bonsai 1 4B</text><line class="g1s" x1="186.0" y1="121" x2="519.9" y2="121" stroke-width="2" opacity="0.32"/><circle class="g1" cx="519.9" cy="121" r="5.5"/><text x="531.9" y="125" class="val">398</text><text x="174" y="155" class="lab" text-anchor="end">Bonsai 1 8B</text><line class="g1s" x1="186.0" y1="151" x2="470.0" y2="151" stroke-width="2" opacity="0.32"/><circle class="g1" cx="470.0" cy="151" r="5.5"/><text x="482.0" y="155" class="val">230</text><text x="174" y="185" class="lab" text-anchor="end">Bonsai 1 27B</text><line class="g1s" x1="186.0" y1="181" x2="287.1" y2="181" stroke-width="2" opacity="0.32"/><circle class="g1" cx="287.1" cy="181" r="5.5"/><text x="299.1" y="185" class="val">31</text><text x="174" y="215" class="lab" text-anchor="end">Ternary Bonsai 1 8B</text><line class="g1s" x1="186.0" y1="211" x2="457.4" y2="211" stroke-width="2" opacity="0.32"/><circle class="g1" cx="457.4" cy="211" r="5.5"/><text x="469.4" y="215" class="val">200</text><text x="174" y="245" class="lab" text-anchor="end">Bonsai 2 27B</text><line class="g2s" x1="186.0" y1="241" x2="264.8" y2="241" stroke-width="2" opacity="0.32"/><circle class="g2" cx="264.8" cy="241" r="5.5"/><text x="276.8" y="245" class="val">24</text><text x="174" y="275" class="lab" text-anchor="end">Jev (hosted)</text><line class="g0s" x1="186.0" y1="271" x2="368.4" y2="271" stroke-width="2" opacity="0.32"/><circle class="g0" cx="368.4" cy="271" r="5.5"/><text x="380.4" y="275" class="val">75</text><text x="416.0" y="318" class="sub" text-anchor="middle">decisions per minute (log scale)</text><text x="24" y="334" class="note">Higher is better. Warmup excluded. Local models are one loaded model on this machine; Jev is a hosted API, so its rate includes a network round trip.</text></svg>

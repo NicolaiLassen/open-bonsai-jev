@@ -1,0 +1,232 @@
+{
+  "model": "Bonsai-8B",
+  "size_gb": 1.16,
+  "load_s": 0.51,
+  "wall_s": 18.85,
+  "model_s": 4.32,
+  "median_ms": 407,
+  "correct": 9,
+  "graded": 10,
+  "rows": [
+    {
+      "question": "the Danish author who wrote The Little Mermaid and The Ugly Duckling",
+      "expected": "Hans Christian Andersen",
+      "choice": "Hans Christian Andersen",
+      "landed": "Hans Christian Andersen",
+      "p": 0.9999471794541914,
+      "n": 12,
+      "forward_s": 0.5644627500150818,
+      "nav_s": 1.2814006250118837,
+      "open_s": 0.1675951250072103,
+      "runner_up": [
+        [
+          "Hans Christian Andersen bibliography",
+          2.5018146691430802e-05
+        ],
+        [
+          "Hans Christian Andersen (film)",
+          1.2414574004700762e-05
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the ship that sank after hitting an iceberg in 1912",
+      "expected": "Titanic",
+      "choice": "Titanic",
+      "landed": "Titanic",
+      "p": 0.9935696809219042,
+      "n": 12,
+      "forward_s": 0.40953491698019207,
+      "nav_s": 1.4104595000098925,
+      "open_s": 0.18534675001865253,
+      "runner_up": [
+        [
+          "Sinking of the Titanic",
+          0.0060577202893680555
+        ],
+        [
+          "Titanic (ship)",
+          0.00024655334727439847
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the war fought in the United States between 1861 and 1865",
+      "expected": "American Civil War",
+      "choice": "American Civil War",
+      "landed": "American Civil War",
+      "p": 0.9999792455295722,
+      "n": 12,
+      "forward_s": 0.4879098749952391,
+      "nav_s": 1.2163996669987682,
+      "open_s": 0.15570208299322985,
+      "runner_up": [
+        [
+          "Confederate States of America",
+          1.8200978309681165e-05
+        ],
+        [
+          "History of the United States",
+          9.642283791052844e-07
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the ocean between Africa and Australia",
+      "expected": "Indian Ocean",
+      "choice": "Indian Ocean",
+      "landed": "Indian Ocean",
+      "p": 0.8163942559299342,
+      "n": 12,
+      "forward_s": 0.4087209170102142,
+      "nav_s": 1.6445181669841986,
+      "open_s": 0.152055874990765,
+      "runner_up": [
+        [
+          "Circles of latitude between the 25th parallel south and the 30th parallel south",
+          0.055703273973441235
+        ],
+        [
+          "List of countries bordering on two or more oceans",
+          0.03397211210306336
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the spacecraft mission that first landed humans on the Moon",
+      "expected": "Apollo 11",
+      "choice": "Apollo program",
+      "landed": "Apollo program",
+      "p": 0.8457142755547294,
+      "n": 12,
+      "forward_s": 0.40242291701724753,
+      "nav_s": 1.3640374999959022,
+      "open_s": 0.1646505420212634,
+      "runner_up": [
+        [
+          "Moon landing",
+          0.15353001115426945
+        ],
+        [
+          "Integrity (Orion spacecraft)",
+          0.00047763141200592114
+        ]
+      ],
+      "correct": false
+    },
+    {
+      "question": "the physicist who developed the theory of general relativity",
+      "expected": "Albert Einstein",
+      "choice": "Albert Einstein",
+      "landed": "Albert Einstein",
+      "p": 0.9913047968746922,
+      "n": 12,
+      "forward_s": 0.4057587919814978,
+      "nav_s": 0.9571293329936452,
+      "open_s": 0.1745882499963045,
+      "runner_up": [
+        [
+          "General relativity",
+          0.00343060849797124
+        ],
+        [
+          "Einstein (physicist)",
+          0.0029739713614076613
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the Italian artist who painted the Mona Lisa",
+      "expected": "Leonardo da Vinci",
+      "choice": "Leonardo da Vinci",
+      "landed": "Leonardo da Vinci",
+      "p": 0.9895106585551553,
+      "n": 12,
+      "forward_s": 0.4060702919960022,
+      "nav_s": 1.2037402499991003,
+      "open_s": 0.06552354199811816,
+      "runner_up": [
+        [
+          "Lisa del Giocondo",
+          0.0039211723436767786
+        ],
+        [
+          "Mona Lisa",
+          0.0034342235031619233
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the high-level programming language created by Guido van Rossum",
+      "expected": "Python (programming language)",
+      "choice": "Python (programming language)",
+      "landed": "Python (programming language)",
+      "p": 0.999991750709041,
+      "n": 12,
+      "forward_s": 0.40436283298186027,
+      "nav_s": 1.1246503749862313,
+      "open_s": 0.13365670898929238,
+      "runner_up": [
+        [
+          "ABC (programming language)",
+          4.074642583300433e-06
+        ],
+        [
+          "Outline of the Python programming language",
+          3.8889559557150635e-06
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the Danish physicist who founded quantum atomic theory",
+      "expected": "Niels Bohr",
+      "choice": "Niels Bohr",
+      "landed": "Niels Bohr",
+      "p": 0.999917725218876,
+      "n": 12,
+      "forward_s": 0.34320341600687243,
+      "nav_s": 1.2288055840181187,
+      "open_s": 0.14427966700168326,
+      "runner_up": [
+        [
+          "Lev Landau",
+          3.7384026144266046e-05
+        ],
+        [
+          "Copenhagen interpretation",
+          3.1676920907087525e-05
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the 1986 nuclear accident in Soviet Ukraine",
+      "expected": "Chernobyl disaster",
+      "choice": "Chernobyl disaster",
+      "landed": "Chernobyl disaster",
+      "p": 0.6342070922949123,
+      "n": 12,
+      "forward_s": 0.48428695800248533,
+      "nav_s": 1.079932499997085,
+      "open_s": 0.16922383298515342,
+      "runner_up": [
+        [
+          "1986 Chernobyl Nuclear Accident",
+          0.36289367639453396
+        ],
+        [
+          "Nuclear and radiation accidents and incidents",
+          0.002435886045979383
+        ]
+      ],
+      "correct": true
+    }
+  ]
+}

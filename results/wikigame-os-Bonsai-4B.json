@@ -1,0 +1,402 @@
+{
+  "model": "Bonsai-4B",
+  "size_gb": 0.57,
+  "start": "Open source",
+  "goal": "Microphone",
+  "arrived": true,
+  "path": [
+    "Open source",
+    "Open-source hardware",
+    "Circuit diagram",
+    "Schematic",
+    "Wiring diagram",
+    "Electrical wiring",
+    "Electrical cable",
+    "Electrical conductor",
+    "Electrical engineering",
+    "Electronics",
+    "Consumer electronics",
+    "Mobile phone",
+    "Telephone",
+    "Microphone"
+  ],
+  "clicks": 13,
+  "decisions": 13,
+  "wall_s": 13.2,
+  "model_s": 4.53,
+  "ms_per_decision": 348,
+  "video": null,
+  "video_end_s": 12.96,
+  "timeline": [
+    {
+      "t": 0.61,
+      "kind": "arrive",
+      "title": "Open source",
+      "hop": 0
+    },
+    {
+      "t": 1.02,
+      "kind": "decide",
+      "title": "Open source",
+      "choice": "open hardware",
+      "ms": 394,
+      "options": 18,
+      "top": [
+        [
+          "open hardware",
+          0.236
+        ],
+        [
+          "Open-source software",
+          0.229
+        ],
+        [
+          "source code",
+          0.179
+        ]
+      ]
+    },
+    {
+      "t": 2.08,
+      "kind": "arrive",
+      "title": "Open-source hardware",
+      "hop": 1
+    },
+    {
+      "t": 2.45,
+      "kind": "decide",
+      "title": "Open-source hardware",
+      "choice": "schematics",
+      "ms": 358,
+      "options": 25,
+      "top": [
+        [
+          "schematics",
+          0.736
+        ],
+        [
+          "system-on-a-chip",
+          0.154
+        ],
+        [
+          "HDL",
+          0.032
+        ]
+      ]
+    },
+    {
+      "t": 3.19,
+      "kind": "arrive",
+      "title": "Circuit diagram",
+      "hop": 2
+    },
+    {
+      "t": 3.46,
+      "kind": "decide",
+      "title": "Circuit diagram",
+      "choice": "schematic diagram",
+      "ms": 268,
+      "options": 18,
+      "top": [
+        [
+          "schematic diagram",
+          0.848
+        ],
+        [
+          "pictorial",
+          0.045
+        ],
+        [
+          "electrical circuit",
+          0.041
+        ]
+      ]
+    },
+    {
+      "t": 4.49,
+      "kind": "arrive",
+      "title": "Schematic",
+      "hop": 3
+    },
+    {
+      "t": 4.76,
+      "kind": "decide",
+      "title": "Schematic",
+      "choice": "wiring diagram",
+      "ms": 266,
+      "options": 11,
+      "top": [
+        [
+          "wiring diagram",
+          0.393
+        ],
+        [
+          "symbols",
+          0.281
+        ],
+        [
+          "Exploded-view",
+          0.268
+        ]
+      ]
+    },
+    {
+      "t": 5.28,
+      "kind": "arrive",
+      "title": "Wiring diagram",
+      "hop": 4
+    },
+    {
+      "t": 5.55,
+      "kind": "decide",
+      "title": "Wiring diagram",
+      "choice": "Electrical wiring",
+      "ms": 267,
+      "options": 9,
+      "top": [
+        [
+          "Electrical wiring",
+          0.366
+        ],
+        [
+          "Connectome",
+          0.287
+        ],
+        [
+          "closed-circuit television",
+          0.133
+        ]
+      ]
+    },
+    {
+      "t": 6.31,
+      "kind": "arrive",
+      "title": "Electrical wiring",
+      "hop": 5
+    },
+    {
+      "t": 6.76,
+      "kind": "decide",
+      "title": "Electrical wiring",
+      "choice": "Electrical cabling",
+      "ms": 436,
+      "options": 25,
+      "top": [
+        [
+          "Electrical cabling",
+          0.64
+        ],
+        [
+          "Mineral-insulated copper-clad cable",
+          0.29
+        ],
+        [
+          "United Kingdom practice",
+          0.019
+        ]
+      ]
+    },
+    {
+      "t": 7.54,
+      "kind": "arrive",
+      "title": "Electrical cable",
+      "hop": 6
+    },
+    {
+      "t": 7.91,
+      "kind": "decide",
+      "title": "Electrical cable",
+      "choice": "electrical conductor",
+      "ms": 364,
+      "options": 23,
+      "top": [
+        [
+          "electrical conductor",
+          0.575
+        ],
+        [
+          "electrical signals",
+          0.171
+        ],
+        [
+          "copper conductors",
+          0.132
+        ]
+      ]
+    },
+    {
+      "t": 8.31,
+      "kind": "arrive",
+      "title": "Electrical conductor",
+      "hop": 7
+    },
+    {
+      "t": 8.66,
+      "kind": "decide",
+      "title": "Electrical conductor",
+      "choice": "electrical engineering",
+      "ms": 351,
+      "options": 25,
+      "top": [
+        [
+          "electrical engineering",
+          0.567
+        ],
+        [
+          "Electromagnetism",
+          0.165
+        ],
+        [
+          "physics",
+          0.089
+        ]
+      ]
+    },
+    {
+      "t": 9.08,
+      "kind": "arrive",
+      "title": "Electrical engineering",
+      "hop": 8
+    },
+    {
+      "t": 9.44,
+      "kind": "decide",
+      "title": "Electrical engineering",
+      "choice": "Electronics",
+      "ms": 352,
+      "options": 25,
+      "top": [
+        [
+          "Electronics",
+          0.545
+        ],
+        [
+          "electricity",
+          0.118
+        ],
+        [
+          "systems engineering",
+          0.101
+        ]
+      ]
+    },
+    {
+      "t": 9.85,
+      "kind": "arrive",
+      "title": "Electronics",
+      "hop": 9
+    },
+    {
+      "t": 10.22,
+      "kind": "decide",
+      "title": "Electronics",
+      "choice": "Consumer electronics",
+      "ms": 358,
+      "options": 25,
+      "top": [
+        [
+          "Consumer electronics",
+          0.66
+        ],
+        [
+          "Electronics (magazine)",
+          0.111
+        ],
+        [
+          "physics",
+          0.061
+        ]
+      ]
+    },
+    {
+      "t": 10.62,
+      "kind": "arrive",
+      "title": "Consumer electronics",
+      "hop": 10
+    },
+    {
+      "t": 10.99,
+      "kind": "decide",
+      "title": "Consumer electronics",
+      "choice": "mobile phones",
+      "ms": 356,
+      "options": 25,
+      "top": [
+        [
+          "mobile phones",
+          0.57
+        ],
+        [
+          "broadcast receiver",
+          0.138
+        ],
+        [
+          "communications",
+          0.084
+        ]
+      ]
+    },
+    {
+      "t": 11.39,
+      "kind": "arrive",
+      "title": "Mobile phone",
+      "hop": 11
+    },
+    {
+      "t": 11.8,
+      "kind": "decide",
+      "title": "Mobile phone",
+      "choice": "telephone",
+      "ms": 400,
+      "options": 25,
+      "top": [
+        [
+          "telephone",
+          0.35
+        ],
+        [
+          "Wi-Fi",
+          0.19
+        ],
+        [
+          "Cell Phone (film)",
+          0.165
+        ]
+      ]
+    },
+    {
+      "t": 12.22,
+      "kind": "arrive",
+      "title": "Telephone",
+      "hop": 12
+    },
+    {
+      "t": 12.58,
+      "kind": "decide",
+      "title": "Telephone",
+      "choice": "microphone",
+      "ms": 355,
+      "options": 25,
+      "top": [
+        [
+          "microphone",
+          0.938
+        ],
+        [
+          "telecommunications",
+          0.014
+        ],
+        [
+          "lit.",
+          0.014
+        ]
+      ]
+    },
+    {
+      "t": 12.96,
+      "kind": "arrive",
+      "title": "Microphone",
+      "hop": 13
+    }
+  ]
+}

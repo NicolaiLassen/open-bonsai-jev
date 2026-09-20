@@ -1,0 +1,225 @@
+{
+  "machine": {
+    "platform": "macOS-15.6-arm64-arm-64bit",
+    "machine": "arm64",
+    "python": "3.10.9"
+  },
+  "generated": "2026-09-20",
+  "models": [
+    {
+      "label": "Bonsai 1 1.7B",
+      "folder": "Bonsai-1.7B",
+      "generation": 1,
+      "file": "Bonsai-1.7B-Q1_0.gguf",
+      "quant": "Q1_0",
+      "size_gb": 0.248,
+      "runtime": "stock llama.cpp",
+      "evals": {
+        "easy100": {
+          "n": 100,
+          "correct": 79,
+          "accuracy": 0.79,
+          "measured_s": 3.5,
+          "questions_per_min": 1714.2857142857144,
+          "median_forward_s": 0.023,
+          "median_label_mass": 0.9679215,
+          "wall_s": 20.5
+        },
+        "wanli256": {
+          "n": 256,
+          "correct": 133,
+          "accuracy": 0.51953125,
+          "measured_s": 16.6,
+          "questions_per_min": 925.301204819277,
+          "median_forward_s": 0.057,
+          "median_label_mass": 0.9414855,
+          "wall_s": 17.7
+        }
+      }
+    },
+    {
+      "label": "Bonsai 1 4B",
+      "folder": "Bonsai-4B",
+      "generation": 1,
+      "file": "Bonsai-4B-Q1_0.gguf",
+      "quant": "Q1_0",
+      "size_gb": 0.572,
+      "runtime": "stock llama.cpp",
+      "evals": {
+        "easy100": {
+          "n": 100,
+          "correct": 97,
+          "accuracy": 0.97,
+          "measured_s": 7.5,
+          "questions_per_min": 800.0,
+          "median_forward_s": 0.055,
+          "median_label_mass": 0.9292415,
+          "wall_s": 9.1
+        },
+        "wanli256": {
+          "n": 256,
+          "correct": 154,
+          "accuracy": 0.6015625,
+          "measured_s": 38.6,
+          "questions_per_min": 397.92746113989637,
+          "median_forward_s": 0.14,
+          "median_label_mass": 0.73413,
+          "wall_s": 40.1
+        }
+      }
+    },
+    {
+      "label": "Bonsai 1 8B",
+      "folder": "Bonsai-8B",
+      "generation": 1,
+      "file": "Bonsai-8B-Q1_0.gguf",
+      "quant": "Q1_0",
+      "size_gb": 1.159,
+      "runtime": "stock llama.cpp",
+      "evals": {
+        "easy100": {
+          "n": 100,
+          "correct": 98,
+          "accuracy": 0.98,
+          "measured_s": 12.4,
+          "questions_per_min": 483.8709677419355,
+          "median_forward_s": 0.09,
+          "median_label_mass": 0.9999415,
+          "wall_s": 14.3
+        },
+        "wanli256": {
+          "n": 256,
+          "correct": 165,
+          "accuracy": 0.64453125,
+          "measured_s": 66.9,
+          "questions_per_min": 229.5964125560538,
+          "median_forward_s": 0.245,
+          "median_label_mass": 0.9995069999999999,
+          "wall_s": 69.2
+        }
+      }
+    },
+    {
+      "label": "Bonsai 1 27B",
+      "folder": "Bonsai-27B",
+      "generation": 1,
+      "file": "Bonsai-27B-Q1_0.gguf",
+      "quant": "Q1_0",
+      "size_gb": 3.803,
+      "runtime": "stock llama.cpp",
+      "evals": {
+        "easy100": {
+          "n": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "measured_s": 120.1,
+          "questions_per_min": 49.958368026644465,
+          "median_forward_s": 1.1625,
+          "median_label_mass": 0.9929815,
+          "wall_s": 128.1
+        },
+        "wanli256": {
+          "n": 256,
+          "correct": 182,
+          "accuracy": 0.7109375,
+          "measured_s": 503.4,
+          "questions_per_min": 30.512514898688917,
+          "median_forward_s": 1.911,
+          "median_label_mass": 0.9489650000000001,
+          "wall_s": 515.9
+        }
+      }
+    },
+    {
+      "label": "Ternary Bonsai 1 8B",
+      "folder": "Ternary-Bonsai-8B",
+      "generation": 1,
+      "file": "Ternary-Bonsai-8B-PQ2_0.gguf",
+      "quant": "PQ2_0",
+      "size_gb": 2.182,
+      "runtime": "PrismML fork",
+      "evals": {
+        "easy100": {
+          "n": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "measured_s": 13.6,
+          "questions_per_min": 441.1764705882353,
+          "median_forward_s": 0.0985,
+          "median_label_mass": 0.9999819999999999,
+          "wall_s": 16.1
+        },
+        "wanli256": {
+          "n": 256,
+          "correct": 167,
+          "accuracy": 0.65234375,
+          "measured_s": 76.9,
+          "questions_per_min": 199.73992197659297,
+          "median_forward_s": 0.281,
+          "median_label_mass": 0.9994655,
+          "wall_s": 79.3
+        }
+      }
+    },
+    {
+      "label": "Bonsai 2 27B",
+      "folder": "Ternary-Bonsai-2-27B",
+      "generation": 2,
+      "file": "Ternary-Bonsai-2-27B-PTQ1_0.gguf",
+      "quant": "PTQ1_0",
+      "size_gb": 5.947,
+      "runtime": "PrismML fork",
+      "evals": {
+        "easy100": {
+          "n": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "measured_s": 162.9,
+          "questions_per_min": 36.83241252302026,
+          "median_forward_s": 1.58,
+          "median_label_mass": 0.9931840000000001,
+          "wall_s": 174.0
+        },
+        "wanli256": {
+          "n": 256,
+          "correct": 191,
+          "accuracy": 0.74609375,
+          "measured_s": 643.9,
+          "questions_per_min": 23.854635813014447,
+          "median_forward_s": 2.4429999999999996,
+          "median_label_mass": 0.9929625,
+          "wall_s": 658.9
+        }
+      }
+    },
+    {
+      "label": "Jev (hosted)",
+      "folder": null,
+      "generation": 0,
+      "file": null,
+      "quant": "hosted API",
+      "size_gb": null,
+      "runtime": "TypeSafe API",
+      "evals": {
+        "wanli256": {
+          "n": 256,
+          "correct": 204,
+          "accuracy": 0.796875,
+          "measured_s": 205.5,
+          "questions_per_min": 74.8,
+          "median_forward_s": 0.7735000000000001,
+          "median_label_mass": 1.0
+        },
+        "easy100": {
+          "n": 100,
+          "correct": 100,
+          "accuracy": 1.0,
+          "measured_s": 80.9,
+          "questions_per_min": 74.2,
+          "median_forward_s": 0.774,
+          "median_label_mass": 1.0
+        }
+      }
+    }
+  ]
+}

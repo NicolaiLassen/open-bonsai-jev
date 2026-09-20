@@ -1,0 +1,232 @@
+{
+  "model": "Bonsai-4B",
+  "size_gb": 0.57,
+  "load_s": 0.51,
+  "wall_s": 18.77,
+  "model_s": 2.42,
+  "median_ms": 231,
+  "correct": 8,
+  "graded": 10,
+  "rows": [
+    {
+      "question": "the Danish author who wrote The Little Mermaid and The Ugly Duckling",
+      "expected": "Hans Christian Andersen",
+      "choice": "Hans Christian Andersen",
+      "landed": "Hans Christian Andersen",
+      "p": 0.9157193329517689,
+      "n": 12,
+      "forward_s": 0.3145598749979399,
+      "nav_s": 1.2579589590022806,
+      "open_s": 0.1525914169906173,
+      "runner_up": [
+        [
+          "Hans Christian Andersen bibliography",
+          0.04740684586948515
+        ],
+        [
+          "Hans Christian Andersen (film)",
+          0.02211702997660165
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the ship that sank after hitting an iceberg in 1912",
+      "expected": "Titanic",
+      "choice": "Titanic",
+      "landed": "Titanic",
+      "p": 0.5966976662317612,
+      "n": 12,
+      "forward_s": 0.23090104199945927,
+      "nav_s": 1.3252903340035118,
+      "open_s": 0.31447858302271925,
+      "runner_up": [
+        [
+          "Titanic (ship)",
+          0.28346096813713
+        ],
+        [
+          "Endurance (1912 ship)",
+          0.05969682942703849
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the war fought in the United States between 1861 and 1865",
+      "expected": "American Civil War",
+      "choice": "American Civil War",
+      "landed": "American Civil War",
+      "p": 0.9846421493086004,
+      "n": 12,
+      "forward_s": 0.2678557499893941,
+      "nav_s": 2.9122238750278484,
+      "open_s": 0.17737774999113753,
+      "runner_up": [
+        [
+          "16th Infantry Regiment (United States)",
+          0.01026091234522399
+        ],
+        [
+          "United States Army",
+          0.0011109937936539783
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the ocean between Africa and Australia",
+      "expected": "Indian Ocean",
+      "choice": "Southern Ocean",
+      "landed": "Southern Ocean",
+      "p": 0.9771370830440033,
+      "n": 12,
+      "forward_s": 0.23186579201137647,
+      "nav_s": 1.4462552919867449,
+      "open_s": 0.15121166699100286,
+      "runner_up": [
+        [
+          "Great capes",
+          0.010482989766795231
+        ],
+        [
+          "Indian Ocean",
+          0.003255320594175713
+        ]
+      ],
+      "correct": false
+    },
+    {
+      "question": "the spacecraft mission that first landed humans on the Moon",
+      "expected": "Apollo 11",
+      "choice": "Apollo program",
+      "landed": "Apollo program",
+      "p": 0.9723468831023092,
+      "n": 12,
+      "forward_s": 0.23163766699144617,
+      "nav_s": 0.971372917003464,
+      "open_s": 0.16340766701614484,
+      "runner_up": [
+        [
+          "Integrity (Orion spacecraft)",
+          0.008545318031812443
+        ],
+        [
+          "Apollo 11",
+          0.005145861657506285
+        ]
+      ],
+      "correct": false
+    },
+    {
+      "question": "the physicist who developed the theory of general relativity",
+      "expected": "Albert Einstein",
+      "choice": "Albert Einstein",
+      "landed": "Albert Einstein",
+      "p": 0.7471773361666633,
+      "n": 12,
+      "forward_s": 0.22909429200808518,
+      "nav_s": 1.2062834159878548,
+      "open_s": 0.18294062500353903,
+      "runner_up": [
+        [
+          "Einstein (physicist)",
+          0.10140462740016205
+        ],
+        [
+          "General relativity",
+          0.09725592273647908
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the Italian artist who painted the Mona Lisa",
+      "expected": "Leonardo da Vinci",
+      "choice": "Leonardo da Vinci",
+      "landed": "Leonardo da Vinci",
+      "p": 0.686759131025551,
+      "n": 12,
+      "forward_s": 0.23078633300610818,
+      "nav_s": 1.1504095830023289,
+      "open_s": 0.10832924998248927,
+      "runner_up": [
+        [
+          "Mona Lisa (Prado)",
+          0.12968378696345192
+        ],
+        [
+          "Agostino Vespucci",
+          0.06630344709915778
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the high-level programming language created by Guido van Rossum",
+      "expected": "Python (programming language)",
+      "choice": "Python (programming language)",
+      "landed": "Python (programming language)",
+      "p": 0.6536724418929434,
+      "n": 12,
+      "forward_s": 0.2298526660015341,
+      "nav_s": 1.590009374980582,
+      "open_s": 0.12839608400827274,
+      "runner_up": [
+        [
+          "SETL programming language",
+          0.3233466956993645
+        ],
+        [
+          "Outline of the Python programming language",
+          0.01651481064162238
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the Danish physicist who founded quantum atomic theory",
+      "expected": "Niels Bohr",
+      "choice": "Niels Bohr",
+      "landed": "Niels Bohr",
+      "p": 0.9128857871308522,
+      "n": 12,
+      "forward_s": 0.18225654200068675,
+      "nav_s": 1.0203207920130808,
+      "open_s": 0.18124554099631496,
+      "runner_up": [
+        [
+          "Light",
+          0.03483907422842124
+        ],
+        [
+          "Lev Landau",
+          0.03323918317761289
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the 1986 nuclear accident in Soviet Ukraine",
+      "expected": "Chernobyl disaster",
+      "choice": "1986 Chernobyl Nuclear Accident",
+      "landed": "Chernobyl disaster",
+      "p": 0.9130140430303816,
+      "n": 12,
+      "forward_s": 0.26845241599949077,
+      "nav_s": 1.2440397079917602,
+      "open_s": 0.11763524997513741,
+      "runner_up": [
+        [
+          "Viktor Bryukhanov",
+          0.02887992400741882
+        ],
+        [
+          "Chernobyl disaster",
+          0.019485547901066012
+        ]
+      ],
+      "correct": true
+    }
+  ]
+}

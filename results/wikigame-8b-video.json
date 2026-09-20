@@ -1,0 +1,141 @@
+{
+  "model": "Bonsai-8B",
+  "size_gb": 1.16,
+  "start": "Jimmy Page",
+  "goal": "Microphone",
+  "arrived": true,
+  "path": [
+    "Jimmy Page",
+    "Session musician",
+    "Studio recording",
+    "Recording studio",
+    "Microphone"
+  ],
+  "clicks": 4,
+  "decisions": 4,
+  "wall_s": 5.36,
+  "model_s": 2.64,
+  "ms_per_decision": 660,
+  "video": "/Users/nicolailassen/Desktop/personlig/open-bonzi-jev/demos/browser/video/page@31aa842cc916cffb711ae4a75150ac02.webm",
+  "video_end_s": 5.12,
+  "timeline": [
+    {
+      "t": 0.76,
+      "kind": "arrive",
+      "title": "Jimmy Page",
+      "hop": 0
+    },
+    {
+      "t": 1.56,
+      "kind": "decide",
+      "title": "Jimmy Page",
+      "choice": "session musician",
+      "ms": 797,
+      "options": 25,
+      "top": [
+        [
+          "session musician",
+          0.719
+        ],
+        [
+          "the Edge",
+          0.119
+        ],
+        [
+          "Jimi Hendrix",
+          0.116
+        ]
+      ]
+    },
+    {
+      "t": 1.95,
+      "kind": "arrive",
+      "title": "Session musician",
+      "hop": 1
+    },
+    {
+      "t": 2.52,
+      "kind": "decide",
+      "title": "Session musician",
+      "choice": "recording session",
+      "ms": 564,
+      "options": 25,
+      "top": [
+        [
+          "recording session",
+          0.95
+        ],
+        [
+          "Music session",
+          0.017
+        ],
+        [
+          "musician",
+          0.015
+        ]
+      ]
+    },
+    {
+      "t": 3.03,
+      "kind": "arrive",
+      "title": "Studio recording",
+      "hop": 2
+    },
+    {
+      "t": 3.67,
+      "kind": "decide",
+      "title": "Studio recording",
+      "choice": "studio",
+      "ms": 640,
+      "options": 25,
+      "top": [
+        [
+          "studio",
+          0.6
+        ],
+        [
+          "recording",
+          0.286
+        ],
+        [
+          "live",
+          0.078
+        ]
+      ]
+    },
+    {
+      "t": 4.08,
+      "kind": "arrive",
+      "title": "Recording studio",
+      "hop": 3
+    },
+    {
+      "t": 4.72,
+      "kind": "decide",
+      "title": "Recording studio",
+      "choice": "microphones",
+      "ms": 639,
+      "options": 25,
+      "top": [
+        [
+          "microphones",
+          0.996
+        ],
+        [
+          "project studio",
+          0.002
+        ],
+        [
+          "mixing consoles",
+          0.001
+        ]
+      ]
+    },
+    {
+      "t": 5.12,
+      "kind": "arrive",
+      "title": "Microphone",
+      "hop": 4
+    }
+  ]
+}

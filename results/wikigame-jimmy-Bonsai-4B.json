@@ -1,0 +1,141 @@
+{
+  "model": "Bonsai-4B",
+  "size_gb": 0.57,
+  "start": "Jimmy Page",
+  "goal": "Microphone",
+  "arrived": true,
+  "path": [
+    "Jimmy Page",
+    "Session musician",
+    "Studio recording",
+    "Recording studio",
+    "Microphone"
+  ],
+  "clicks": 4,
+  "decisions": 4,
+  "wall_s": 3.98,
+  "model_s": 1.47,
+  "ms_per_decision": 367,
+  "video": null,
+  "video_end_s": 3.73,
+  "timeline": [
+    {
+      "t": 0.65,
+      "kind": "arrive",
+      "title": "Jimmy Page",
+      "hop": 0
+    },
+    {
+      "t": 1.09,
+      "kind": "decide",
+      "title": "Jimmy Page",
+      "choice": "session musician",
+      "ms": 440,
+      "options": 25,
+      "top": [
+        [
+          "session musician",
+          0.59
+        ],
+        [
+          "Jack White",
+          0.157
+        ],
+        [
+          "OBE",
+          0.077
+        ]
+      ]
+    },
+    {
+      "t": 1.48,
+      "kind": "arrive",
+      "title": "Session musician",
+      "hop": 1
+    },
+    {
+      "t": 1.81,
+      "kind": "decide",
+      "title": "Session musician",
+      "choice": "recording session",
+      "ms": 318,
+      "options": 25,
+      "top": [
+        [
+          "recording session",
+          0.53
+        ],
+        [
+          "backing tracks",
+          0.232
+        ],
+        [
+          "musician",
+          0.074
+        ]
+      ]
+    },
+    {
+      "t": 2.19,
+      "kind": "arrive",
+      "title": "Studio recording",
+      "hop": 2
+    },
+    {
+      "t": 2.55,
+      "kind": "decide",
+      "title": "Studio recording",
+      "choice": "studio",
+      "ms": 356,
+      "options": 25,
+      "top": [
+        [
+          "studio",
+          0.533
+        ],
+        [
+          "recording",
+          0.189
+        ],
+        [
+          "stage production",
+          0.088
+        ]
+      ]
+    },
+    {
+      "t": 2.94,
+      "kind": "arrive",
+      "title": "Recording studio",
+      "hop": 3
+    },
+    {
+      "t": 3.31,
+      "kind": "decide",
+      "title": "Recording studio",
+      "choice": "microphones",
+      "ms": 353,
+      "options": 25,
+      "top": [
+        [
+          "microphones",
+          0.912
+        ],
+        [
+          "dialogue replacement",
+          0.027
+        ],
+        [
+          "project studio",
+          0.02
+        ]
+      ]
+    },
+    {
+      "t": 3.73,
+      "kind": "arrive",
+      "title": "Microphone",
+      "hop": 4
+    }
+  ]
+}

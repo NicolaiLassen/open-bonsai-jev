@@ -1,0 +1,199 @@
+{
+  "model": "Ternary-Bonsai-2-27B",
+  "size_gb": 5.95,
+  "start": "Open source",
+  "goal": "Microphone",
+  "arrived": true,
+  "path": [
+    "Open source",
+    "Open-source hardware",
+    "Integrated circuit",
+    "Electronics",
+    "Consumer electronics",
+    "Telephone",
+    "Microphone"
+  ],
+  "clicks": 6,
+  "decisions": 6,
+  "wall_s": 28.59,
+  "model_s": 25.16,
+  "ms_per_decision": 4193,
+  "video": "/Users/nicolailassen/Desktop/personlig/open-bonzi-jev/demos/browser/video/page@e7c3c4eecce0fa01470bb4b30dcc97d8.webm",
+  "video_end_s": 28.32,
+  "timeline": [
+    {
+      "t": 0.64,
+      "kind": "arrive",
+      "title": "Open source",
+      "hop": 0
+    },
+    {
+      "t": 4.32,
+      "kind": "decide",
+      "title": "Open source",
+      "choice": "open-source hardware",
+      "ms": 3675,
+      "options": 18,
+      "top": [
+        [
+          "open-source hardware",
+          0.449
+        ],
+        [
+          "SCROLL_DOWN",
+          0.251
+        ],
+        [
+          "Open-source software",
+          0.125
+        ]
+      ]
+    },
+    {
+      "t": 4.74,
+      "kind": "arrive",
+      "title": "Open-source hardware",
+      "hop": 1
+    },
+    {
+      "t": 9.21,
+      "kind": "decide",
+      "title": "Open-source hardware",
+      "choice": "integrated circuit",
+      "ms": 4472,
+      "options": 25,
+      "top": [
+        [
+          "integrated circuit",
+          0.371
+        ],
+        [
+          "maker movement",
+          0.143
+        ],
+        [
+          "3D printer",
+          0.097
+        ]
+      ]
+    },
+    {
+      "t": 9.64,
+      "kind": "arrive",
+      "title": "Integrated circuit",
+      "hop": 2
+    },
+    {
+      "t": 13.73,
+      "kind": "decide",
+      "title": "Integrated circuit",
+      "choice": "electronics",
+      "ms": 4087,
+      "options": 25,
+      "top": [
+        [
+          "electronics",
+          0.349
+        ],
+        [
+          "electronic devices",
+          0.202
+        ],
+        [
+          "electronic components",
+          0.093
+        ]
+      ]
+    },
+    {
+      "t": 14.16,
+      "kind": "arrive",
+      "title": "Electronics",
+      "hop": 3
+    },
+    {
+      "t": 18.59,
+      "kind": "decide",
+      "title": "Electronics",
+      "choice": "Consumer electronics",
+      "ms": 4426,
+      "options": 25,
+      "top": [
+        [
+          "Consumer electronics",
+          0.2
+        ],
+        [
+          "amplify",
+          0.162
+        ],
+        [
+          "electrical engineering",
+          0.125
+        ]
+      ]
+    },
+    {
+      "t": 19.0,
+      "kind": "arrive",
+      "title": "Consumer electronics",
+      "hop": 4
+    },
+    {
+      "t": 23.44,
+      "kind": "decide",
+      "title": "Consumer electronics",
+      "choice": "telephones",
+      "ms": 4435,
+      "options": 25,
+      "top": [
+        [
+          "telephones",
+          0.324
+        ],
+        [
+          "broadcast receiver",
+          0.241
+        ],
+        [
+          "MP3 players",
+          0.091
+        ]
+      ]
+    },
+    {
+      "t": 23.85,
+      "kind": "arrive",
+      "title": "Telephone",
+      "hop": 5
+    },
+    {
+      "t": 27.91,
+      "kind": "decide",
+      "title": "Telephone",
+      "choice": "microphone",
+      "ms": 4064,
+      "options": 25,
+      "top": [
+        [
+          "microphone",
+          0.994
+        ],
+        [
+          "Mobile phone",
+          0.002
+        ],
+        [
+          "sound",
+          0.001
+        ]
+      ]
+    },
+    {
+      "t": 28.32,
+      "kind": "arrive",
+      "title": "Microphone",
+      "hop": 6
+    }
+  ]
+}

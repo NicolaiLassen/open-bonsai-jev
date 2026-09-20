@@ -1,0 +1,10 @@
+{"question": "Is the sky blue?", "expected": "true"}
+{"question": "Does a spider have two legs?", "expected": "false"}
+{"state": {"msg": "this is broken AGAIN and nobody replies"}, "question": "Is the user angry?", "expected": "true"}
+{"state": {"msg": "thanks so much, this worked perfectly!"}, "question": "Is the user angry?", "expected": "false"}
+{"state": {"msg": "the production API returns 500 for every call"}, "question": "Is this blocking the user's work right now?", "expected": "true"}
+{"state": {"msg": "is dark mode on the roadmap? no rush"}, "question": "Is this blocking the user's work right now?", "expected": "false"}
+{"state": {"subject": "card charged twice"}, "question": "Which team should handle this?", "options": ["billing", "engineering", "product"], "expected": "billing"}
+{"state": {"subject": "500 errors on every API call"}, "question": "Which team should handle this?", "options": ["billing", "engineering", "product"], "expected": "engineering"}
+{"state": {"subject": "please add a dark mode"}, "question": "Which team should handle this?", "options": ["billing", "engineering", "product"], "expected": "product"}
+{"state": {"review": "It arrived late but the quality is outstanding."}, "question": "What is the overall sentiment?", "options": ["positive", "negative", "mixed"], "expected": "mixed"}

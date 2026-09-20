@@ -1,0 +1,176 @@
+{
+  "Bonsai-1.7B": [
+    {
+      "pair": "Jimmy Page -> Microphone",
+      "ok": true,
+      "clicks": 15,
+      "ms": 127,
+      "wall": 10.64
+    },
+    {
+      "pair": "Open source -> Microphone",
+      "ok": false,
+      "clicks": 22,
+      "ms": 142,
+      "wall": 14.07
+    },
+    {
+      "pair": "LangChain -> Microphone",
+      "ok": false,
+      "clicks": 23,
+      "ms": 148,
+      "wall": 19.33
+    },
+    {
+      "pair": "Denmark -> Hans Christian Andersen",
+      "ok": false,
+      "clicks": 25,
+      "ms": 162,
+      "wall": 19.35
+    },
+    {
+      "pair": "Physics -> Albert Einstein",
+      "ok": true,
+      "clicks": 7,
+      "ms": 164,
+      "wall": 6.29
+    },
+    {
+      "pair": "Coffee -> Brazil",
+      "ok": true,
+      "clicks": 3,
+      "ms": 136,
+      "wall": 3.11
+    },
+    {
+      "pair": "Chess -> Mathematics",
+      "ok": true,
+      "clicks": 5,
+      "ms": 142,
+      "wall": 5.31
+    },
+    {
+      "pair": "Guitar -> Electricity",
+      "ok": false,
+      "clicks": 20,
+      "ms": 145,
+      "wall": 18.67
+    }
+  ],
+  "Bonsai-4B": [
+    {
+      "pair": "Jimmy Page -> Microphone",
+      "ok": true,
+      "clicks": 4,
+      "ms": 363,
+      "wall": 3.91
+    },
+    {
+      "pair": "Open source -> Microphone",
+      "ok": true,
+      "clicks": 13,
+      "ms": 345,
+      "wall": 10.79
+    },
+    {
+      "pair": "LangChain -> Microphone",
+      "ok": false,
+      "clicks": 25,
+      "ms": 190,
+      "wall": 16.97
+    },
+    {
+      "pair": "Denmark -> Hans Christian Andersen",
+      "ok": false,
+      "clicks": 22,
+      "ms": 353,
+      "wall": 25.18
+    },
+    {
+      "pair": "Physics -> Albert Einstein",
+      "ok": true,
+      "clicks": 2,
+      "ms": 355,
+      "wall": 2.59
+    },
+    {
+      "pair": "Coffee -> Brazil",
+      "ok": true,
+      "clicks": 4,
+      "ms": 365,
+      "wall": 4.3
+    },
+    {
+      "pair": "Chess -> Mathematics",
+      "ok": true,
+      "clicks": 8,
+      "ms": 348,
+      "wall": 8.42
+    },
+    {
+      "pair": "Guitar -> Electricity",
+      "ok": true,
+      "clicks": 6,
+      "ms": 359,
+      "wall": 5.71
+    }
+  ],
+  "Bonsai-8B": [
+    {
+      "pair": "Jimmy Page -> Microphone",
+      "ok": true,
+      "clicks": 4,
+      "ms": 661,
+      "wall": 5.22
+    },
+    {
+      "pair": "Open source -> Microphone",
+      "ok": false,
+      "clicks": 22,
+      "ms": 626,
+      "wall": 26.42
+    },
+    {
+      "pair": "LangChain -> Microphone",
+      "ok": false,
+      "clicks": 23,
+      "ms": 585,
+      "wall": 26.71
+    },
+    {
+      "pair": "Denmark -> Hans Christian Andersen",
+      "ok": false,
+      "clicks": 25,
+      "ms": 719,
+      "wall": 31.07
+    },
+    {
+      "pair": "Physics -> Albert Einstein",
+      "ok": true,
+      "clicks": 2,
+      "ms": 645,
+      "wall": 6.02
+    },
+    {
+      "pair": "Coffee -> Brazil",
+      "ok": true,
+      "clicks": 17,
+      "ms": 692,
+      "wall": 21.33
+    },
+    {
+      "pair": "Chess -> Mathematics",
+      "ok": true,
+      "clicks": 13,
+      "ms": 624,
+      "wall": 16.06
+    },
+    {
+      "pair": "Guitar -> Electricity",
+      "ok": true,
+      "clicks": 10,
+      "ms": 657,
+      "wall": 12.7
+    }
+  ]
+}

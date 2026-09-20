@@ -1,0 +1,867 @@
+{
+  "model": "Bonsai-1.7B",
+  "size_gb": 0.25,
+  "start": "Open source",
+  "goal": "Microphone",
+  "arrived": false,
+  "path": [
+    "Open source",
+    "Open-source license",
+    "Free and open-source software",
+    "Source code",
+    "Object code",
+    "Machine code",
+    "P-code machine",
+    "BCPL",
+    "CPL (programming language)",
+    "B (programming language)",
+    "C (programming language)",
+    "ANSI C",
+    "The C Programming Language",
+    "C (programming language)",
+    "Executable",
+    "Computer program",
+    "Microcode",
+    "Bytecode",
+    "Opcode",
+    "Opcode table",
+    "Nibble",
+    "Binary number",
+    "2",
+    "4",
+    "5",
+    "50 (number)",
+    "58 (number)"
+  ],
+  "clicks": 27,
+  "decisions": 30,
+  "wall_s": 21.05,
+  "model_s": 4.27,
+  "ms_per_decision": 142,
+  "video": null,
+  "video_end_s": 20.8,
+  "timeline": [
+    {
+      "t": 0.63,
+      "kind": "arrive",
+      "title": "Open source",
+      "hop": 0
+    },
+    {
+      "t": 0.8,
+      "kind": "decide",
+      "title": "Open source",
+      "choice": "Open-source license",
+      "ms": 162,
+      "options": 18,
+      "top": [
+        [
+          "Open-source license",
+          0.268
+        ],
+        [
+          "Open-source software",
+          0.146
+        ],
+        [
+          "open hardware",
+          0.133
+        ]
+      ]
+    },
+    {
+      "t": 1.24,
+      "kind": "arrive",
+      "title": "Open-source license",
+      "hop": 1
+    },
+    {
+      "t": 1.39,
+      "kind": "decide",
+      "title": "Open-source license",
+      "choice": "free and open-source software",
+      "ms": 149,
+      "options": 25,
+      "top": [
+        [
+          "free and open-source software",
+          0.852
+        ],
+        [
+          "GNU General Public License",
+          0.058
+        ],
+        [
+          "source code",
+          0.023
+        ]
+      ]
+    },
+    {
+      "t": 1.81,
+      "kind": "arrive",
+      "title": "Free and open-source software",
+      "hop": 2
+    },
+    {
+      "t": 1.97,
+      "kind": "decide",
+      "title": "Free and open-source software",
+      "choice": "source code",
+      "ms": 149,
+      "options": 25,
+      "top": [
+        [
+          "source code",
+          0.767
+        ],
+        [
+          "source-available software",
+          0.066
+        ],
+        [
+          "umbrella term",
+          0.053
+        ]
+      ]
+    },
+    {
+      "t": 2.38,
+      "kind": "arrive",
+      "title": "Source code",
+      "hop": 3
+    },
+    {
+      "t": 2.54,
+      "kind": "decide",
+      "title": "Source code",
+      "choice": "Object code",
+      "ms": 143,
+      "options": 25,
+      "top": [
+        [
+          "Object code",
+          0.395
+        ],
+        [
+          "Code",
+          0.258
+        ],
+        [
+          "plain text",
+          0.107
+        ]
+      ]
+    },
+    {
+      "t": 2.93,
+      "kind": "arrive",
+      "title": "Object code",
+      "hop": 4
+    },
+    {
+      "t": 3.08,
+      "kind": "decide",
+      "title": "Object code",
+      "choice": "Machine code",
+      "ms": 147,
+      "options": 25,
+      "top": [
+        [
+          "Machine code",
+          0.663
+        ],
+        [
+          "binary",
+          0.104
+        ],
+        [
+          "SCROLL_DOWN",
+          0.051
+        ]
+      ]
+    },
+    {
+      "t": 3.49,
+      "kind": "arrive",
+      "title": "Machine code",
+      "hop": 5
+    },
+    {
+      "t": 3.65,
+      "kind": "decide",
+      "title": "Machine code",
+      "choice": "P-code machine",
+      "ms": 149,
+      "options": 25,
+      "top": [
+        [
+          "P-code machine",
+          0.354
+        ],
+        [
+          "W65C816S",
+          0.12
+        ],
+        [
+          "Microcode",
+          0.099
+        ]
+      ]
+    },
+    {
+      "t": 4.04,
+      "kind": "arrive",
+      "title": "P-code machine",
+      "hop": 6
+    },
+    {
+      "t": 4.19,
+      "kind": "decide",
+      "title": "P-code machine",
+      "choice": "O-code",
+      "ms": 146,
+      "options": 25,
+      "top": [
+        [
+          "O-code",
+          0.539
+        ],
+        [
+          "Pascal MicroEngine",
+          0.133
+        ],
+        [
+          "computer programming",
+          0.057
+        ]
+      ]
+    },
+    {
+      "t": 4.58,
+      "kind": "arrive",
+      "title": "BCPL",
+      "hop": 7
+    },
+    {
+      "t": 4.73,
+      "kind": "decide",
+      "title": "BCPL",
+      "choice": "CPL",
+      "ms": 141,
+      "options": 25,
+      "top": [
+        [
+          "CPL",
+          0.205
+        ],
+        [
+          "programming language",
+          0.172
+        ],
+        [
+          "BASIC",
+          0.135
+        ]
+      ]
+    },
+    {
+      "t": 5.57,
+      "kind": "arrive",
+      "title": "CPL (programming language)",
+      "hop": 8
+    },
+    {
+      "t": 5.73,
+      "kind": "decide",
+      "title": "CPL (programming language)",
+      "choice": "B",
+      "ms": 144,
+      "options": 23,
+      "top": [
+        [
+          "B",
+          0.376
+        ],
+        [
+          "C programming language",
+          0.215
+        ],
+        [
+          "systems programming",
+          0.083
+        ]
+      ]
+    },
+    {
+      "t": 6.12,
+      "kind": "arrive",
+      "title": "B (programming language)",
+      "hop": 9
+    },
+    {
+      "t": 6.29,
+      "kind": "decide",
+      "title": "B (programming language)",
+      "choice": "C",
+      "ms": 166,
+      "options": 25,
+      "top": [
+        [
+          "C",
+          0.408
+        ],
+        [
+          "programming language",
+          0.252
+        ],
+        [
+          "ABC (programming language)",
+          0.066
+        ]
+      ]
+    },
+    {
+      "t": 6.71,
+      "kind": "arrive",
+      "title": "C (programming language)",
+      "hop": 10
+    },
+    {
+      "t": 6.86,
+      "kind": "decide",
+      "title": "C (programming language)",
+      "choice": "ANSI C",
+      "ms": 142,
+      "options": 25,
+      "top": [
+        [
+          "ANSI C",
+          0.625
+        ],
+        [
+          "C++",
+          0.102
+        ],
+        [
+          "The C Programming Language",
+          0.052
+        ]
+      ]
+    },
+    {
+      "t": 7.42,
+      "kind": "arrive",
+      "title": "ANSI C",
+      "hop": 11
+    },
+    {
+      "t": 7.58,
+      "kind": "decide",
+      "title": "ANSI C",
+      "choice": "The C Programming Language",
+      "ms": 158,
+      "options": 23,
+      "top": [
+        [
+          "The C Programming Language",
+          0.507
+        ],
+        [
+          "K&R C",
+          0.168
+        ],
+        [
+          "C99",
+          0.052
+        ]
+      ]
+    },
+    {
+      "t": 7.97,
+      "kind": "arrive",
+      "title": "The C Programming Language",
+      "hop": 12
+    },
+    {
+      "t": 8.14,
+      "kind": "decide",
+      "title": "The C Programming Language",
+      "choice": "C programming language",
+      "ms": 158,
+      "options": 19,
+      "top": [
+        [
+          "C programming language",
+          0.846
+        ],
+        [
+          "Prentice Hall",
+          0.036
+        ],
+        [
+          "computer programming",
+          0.022
+        ]
+      ]
+    },
+    {
+      "t": 8.57,
+      "kind": "arrive",
+      "title": "C (programming language)",
+      "hop": 13
+    },
+    {
+      "t": 8.72,
+      "kind": "decide",
+      "title": "C (programming language)",
+      "choice": "SCROLL_DOWN",
+      "ms": 142,
+      "options": 25,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.317
+        ],
+        [
+          "protocol stacks",
+          0.177
+        ],
+        [
+          "Dennis Ritchie",
+          0.124
+        ]
+      ]
+    },
+    {
+      "t": 9.08,
+      "kind": "decide",
+      "title": "C (programming language)",
+      "choice": "SCROLL_DOWN",
+      "ms": 90,
+      "options": 25,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.157
+        ],
+        [
+          "GCC",
+          0.152
+        ],
+        [
+          "Preview release",
+          0.105
+        ]
+      ]
+    },
+    {
+      "t": 9.42,
+      "kind": "decide",
+      "title": "C (programming language)",
+      "choice": "executable code",
+      "ms": 74,
+      "options": 24,
+      "top": [
+        [
+          "executable code",
+          0.503
+        ],
+        [
+          "Statements",
+          0.179
+        ],
+        [
+          "C mathematical libraries",
+          0.079
+        ]
+      ]
+    },
+    {
+      "t": 10.41,
+      "kind": "arrive",
+      "title": "Executable",
+      "hop": 14
+    },
+    {
+      "t": 10.57,
+      "kind": "decide",
+      "title": "Executable",
+      "choice": "Code",
+      "ms": 144,
+      "options": 25,
+      "top": [
+        [
+          "Code",
+          0.331
+        ],
+        [
+          ".exe",
+          0.201
+        ],
+        [
+          "CPU",
+          0.066
+        ]
+      ]
+    },
+    {
+      "t": 11.15,
+      "kind": "arrive",
+      "title": "Computer program",
+      "hop": 15
+    },
+    {
+      "t": 11.3,
+      "kind": "decide",
+      "title": "Computer program",
+      "choice": "SCROLL_DOWN",
+      "ms": 146,
+      "options": 25,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.181
+        ],
+        [
+          "The Computer Programme",
+          0.167
+        ],
+        [
+          "Assembly language",
+          0.117
+        ]
+      ]
+    },
+    {
+      "t": 11.66,
+      "kind": "decide",
+      "title": "Computer program",
+      "choice": "Microcode",
+      "ms": 93,
+      "options": 25,
+      "top": [
+        [
+          "Microcode",
+          0.597
+        ],
+        [
+          "Bytecode",
+          0.088
+        ],
+        [
+          "\"Hello, World!\" program",
+          0.059
+        ]
+      ]
+    },
+    {
+      "t": 12.55,
+      "kind": "arrive",
+      "title": "Microcode",
+      "hop": 16
+    },
+    {
+      "t": 12.71,
+      "kind": "decide",
+      "title": "Microcode",
+      "choice": "Bytecode",
+      "ms": 151,
+      "options": 25,
+      "top": [
+        [
+          "Bytecode",
+          0.689
+        ],
+        [
+          "Compile and go system",
+          0.071
+        ],
+        [
+          "Ahead-of-time",
+          0.057
+        ]
+      ]
+    },
+    {
+      "t": 13.23,
+      "kind": "arrive",
+      "title": "Bytecode",
+      "hop": 17
+    },
+    {
+      "t": 13.38,
+      "kind": "decide",
+      "title": "Bytecode",
+      "choice": "opcodes",
+      "ms": 149,
+      "options": 25,
+      "top": [
+        [
+          "opcodes",
+          0.591
+        ],
+        [
+          "Compile and go system",
+          0.093
+        ],
+        [
+          "byte",
+          0.084
+        ]
+      ]
+    },
+    {
+      "t": 13.78,
+      "kind": "arrive",
+      "title": "Opcode",
+      "hop": 18
+    },
+    {
+      "t": 13.93,
+      "kind": "decide",
+      "title": "Opcode",
+      "choice": "Opcode table",
+      "ms": 150,
+      "options": 25,
+      "top": [
+        [
+          "Opcode table",
+          0.663
+        ],
+        [
+          "Opcode prefix",
+          0.085
+        ],
+        [
+          "Execute instruction",
+          0.063
+        ]
+      ]
+    },
+    {
+      "t": 14.45,
+      "kind": "arrive",
+      "title": "Opcode table",
+      "hop": 19
+    },
+    {
+      "t": 14.57,
+      "kind": "decide",
+      "title": "Opcode table",
+      "choice": "nibble",
+      "ms": 113,
+      "options": 14,
+      "top": [
+        [
+          "nibble",
+          0.156
+        ],
+        [
+          "Bit manipulation instructions",
+          0.14
+        ],
+        [
+          "Indirect branch",
+          0.119
+        ]
+      ]
+    },
+    {
+      "t": 15.3,
+      "kind": "arrive",
+      "title": "Nibble",
+      "hop": 20
+    },
+    {
+      "t": 15.45,
+      "kind": "decide",
+      "title": "Nibble",
+      "choice": "binary",
+      "ms": 147,
+      "options": 25,
+      "top": [
+        [
+          "binary",
+          0.248
+        ],
+        [
+          "computing",
+          0.137
+        ],
+        [
+          "positional notation",
+          0.13
+        ]
+      ]
+    },
+    {
+      "t": 15.85,
+      "kind": "arrive",
+      "title": "Binary number",
+      "hop": 21
+    },
+    {
+      "t": 16.01,
+      "kind": "decide",
+      "title": "Binary number",
+      "choice": "2",
+      "ms": 149,
+      "options": 25,
+      "top": [
+        [
+          "2",
+          0.628
+        ],
+        [
+          "Place-value notation",
+          0.115
+        ],
+        [
+          "integer",
+          0.06
+        ]
+      ]
+    },
+    {
+      "t": 16.58,
+      "kind": "arrive",
+      "title": "2",
+      "hop": 22
+    },
+    {
+      "t": 16.74,
+      "kind": "decide",
+      "title": "2",
+      "choice": "4",
+      "ms": 150,
+      "options": 25,
+      "top": [
+        [
+          "4",
+          0.221
+        ],
+        [
+          "5",
+          0.174
+        ],
+        [
+          "0",
+          0.142
+        ]
+      ]
+    },
+    {
+      "t": 17.18,
+      "kind": "arrive",
+      "title": "4",
+      "hop": 23
+    },
+    {
+      "t": 17.33,
+      "kind": "decide",
+      "title": "4",
+      "choice": "5 \u2192",
+      "ms": 149,
+      "options": 25,
+      "top": [
+        [
+          "5 \u2192",
+          0.252
+        ],
+        [
+          "8",
+          0.198
+        ],
+        [
+          "BC 4",
+          0.095
+        ]
+      ]
+    },
+    {
+      "t": 18.88,
+      "kind": "arrive",
+      "title": "5",
+      "hop": 24
+    },
+    {
+      "t": 19.03,
+      "kind": "decide",
+      "title": "5",
+      "choice": "50",
+      "ms": 147,
+      "options": 25,
+      "top": [
+        [
+          "50",
+          0.283
+        ],
+        [
+          "3",
+          0.237
+        ],
+        [
+          "6 \u2192",
+          0.202
+        ]
+      ]
+    },
+    {
+      "t": 19.44,
+      "kind": "arrive",
+      "title": "50 (number)",
+      "hop": 25
+    },
+    {
+      "t": 19.61,
+      "kind": "decide",
+      "title": "50 (number)",
+      "choice": "58",
+      "ms": 156,
+      "options": 25,
+      "top": [
+        [
+          "58",
+          0.161
+        ],
+        [
+          "51 \u2192",
+          0.116
+        ],
+        [
+          "\u2190 49",
+          0.094
+        ]
+      ]
+    },
+    {
+      "t": 20.49,
+      "kind": "arrive",
+      "title": "58 (number)",
+      "hop": 26
+    },
+    {
+      "t": 20.66,
+      "kind": "decide",
+      "title": "58 (number)",
+      "choice": "56",
+      "ms": 164,
+      "options": 25,
+      "top": [
+        [
+          "56",
+          0.201
+        ],
+        [
+          "\u2190",
+          0.118
+        ],
+        [
+          "List of numbers",
+          0.11
+        ]
+      ]
+    }
+  ]
+}

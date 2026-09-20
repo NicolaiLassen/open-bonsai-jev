@@ -1,0 +1,867 @@
+{
+  "model": "Bonsai-8B",
+  "size_gb": 1.16,
+  "start": "Open source",
+  "goal": "Microphone",
+  "arrived": false,
+  "path": [
+    "Open source",
+    "Open-source hardware",
+    "RepRap",
+    "RepRap Snappy",
+    "Self-replicating machine",
+    "K. Eric Drexler",
+    "Molecular nanotechnology",
+    "Applications of nanotechnology",
+    "Energy applications of nanotechnology",
+    "Nanotechnology",
+    "Nanoengineering",
+    "Nanomaterials",
+    "Nanoparticle",
+    "Electron microscope",
+    "Scanning electron microscope",
+    "Secondary electrons",
+    "Microscope",
+    "Electron",
+    "Electronics",
+    "Electrical engineering",
+    "Electrical network",
+    "Electronic component",
+    "Amplifier",
+    "Audio power amplifier",
+    "Pickup (music technology)",
+    "Acoustic guitar",
+    "Musical instrument"
+  ],
+  "clicks": 27,
+  "decisions": 30,
+  "wall_s": 31.73,
+  "model_s": 19.02,
+  "ms_per_decision": 634,
+  "video": null,
+  "video_end_s": 31.47,
+  "timeline": [
+    {
+      "t": 0.59,
+      "kind": "arrive",
+      "title": "Open source",
+      "hop": 0
+    },
+    {
+      "t": 1.32,
+      "kind": "decide",
+      "title": "Open source",
+      "choice": "open-source hardware",
+      "ms": 719,
+      "options": 18,
+      "top": [
+        [
+          "open-source hardware",
+          0.817
+        ],
+        [
+          "open hardware",
+          0.127
+        ],
+        [
+          "executable",
+          0.015
+        ]
+      ]
+    },
+    {
+      "t": 1.74,
+      "kind": "arrive",
+      "title": "Open-source hardware",
+      "hop": 1
+    },
+    {
+      "t": 2.39,
+      "kind": "decide",
+      "title": "Open-source hardware",
+      "choice": "RepRap",
+      "ms": 642,
+      "options": 25,
+      "top": [
+        [
+          "RepRap",
+          0.973
+        ],
+        [
+          "modular design",
+          0.019
+        ],
+        [
+          "3D printer",
+          0.001
+        ]
+      ]
+    },
+    {
+      "t": 2.79,
+      "kind": "arrive",
+      "title": "RepRap",
+      "hop": 2
+    },
+    {
+      "t": 3.29,
+      "kind": "decide",
+      "title": "RepRap",
+      "choice": "SCROLL_DOWN",
+      "ms": 490,
+      "options": 15,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.295
+        ],
+        [
+          "free software license",
+          0.221
+        ],
+        [
+          "open designs",
+          0.202
+        ]
+      ]
+    },
+    {
+      "t": 3.89,
+      "kind": "decide",
+      "title": "RepRap",
+      "choice": "SCROLL_DOWN",
+      "ms": 322,
+      "options": 14,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.272
+        ],
+        [
+          "computer-aided design",
+          0.239
+        ],
+        [
+          "Hangprinter",
+          0.131
+        ]
+      ]
+    },
+    {
+      "t": 4.58,
+      "kind": "decide",
+      "title": "RepRap",
+      "choice": "RepRap Snappy",
+      "ms": 412,
+      "options": 24,
+      "top": [
+        [
+          "RepRap Snappy",
+          0.928
+        ],
+        [
+          "Cura",
+          0.019
+        ],
+        [
+          "computer-aided manufacturing",
+          0.015
+        ]
+      ]
+    },
+    {
+      "t": 4.95,
+      "kind": "arrive",
+      "title": "RepRap Snappy",
+      "hop": 3
+    },
+    {
+      "t": 5.36,
+      "kind": "decide",
+      "title": "RepRap Snappy",
+      "choice": "self-replicating manufacturing machine",
+      "ms": 408,
+      "options": 6,
+      "top": [
+        [
+          "self-replicating manufacturing machine",
+          0.465
+        ],
+        [
+          "Fused deposition modeling",
+          0.255
+        ],
+        [
+          "3D printer",
+          0.093
+        ]
+      ]
+    },
+    {
+      "t": 5.77,
+      "kind": "arrive",
+      "title": "Self-replicating machine",
+      "hop": 4
+    },
+    {
+      "t": 6.5,
+      "kind": "decide",
+      "title": "Self-replicating machine",
+      "choice": "K. Eric Drexler",
+      "ms": 717,
+      "options": 25,
+      "top": [
+        [
+          "K. Eric Drexler",
+          0.413
+        ],
+        [
+          "nanotechnology",
+          0.234
+        ],
+        [
+          "nanorobots",
+          0.217
+        ]
+      ]
+    },
+    {
+      "t": 6.93,
+      "kind": "arrive",
+      "title": "K. Eric Drexler",
+      "hop": 5
+    },
+    {
+      "t": 7.66,
+      "kind": "decide",
+      "title": "K. Eric Drexler",
+      "choice": "molecular nanotechnology",
+      "ms": 724,
+      "options": 25,
+      "top": [
+        [
+          "molecular nanotechnology",
+          0.982
+        ],
+        [
+          "Massachusetts Institute of Technology",
+          0.005
+        ],
+        [
+          "solar sails",
+          0.005
+        ]
+      ]
+    },
+    {
+      "t": 8.06,
+      "kind": "arrive",
+      "title": "Molecular nanotechnology",
+      "hop": 6
+    },
+    {
+      "t": 8.79,
+      "kind": "decide",
+      "title": "Molecular nanotechnology",
+      "choice": "applications",
+      "ms": 725,
+      "options": 25,
+      "top": [
+        [
+          "applications",
+          0.961
+        ],
+        [
+          "Nanomaterials",
+          0.011
+        ],
+        [
+          "Nanoengineering",
+          0.009
+        ]
+      ]
+    },
+    {
+      "t": 9.17,
+      "kind": "arrive",
+      "title": "Applications of nanotechnology",
+      "hop": 7
+    },
+    {
+      "t": 9.75,
+      "kind": "decide",
+      "title": "Applications of nanotechnology",
+      "choice": "Energy applications",
+      "ms": 573,
+      "options": 16,
+      "top": [
+        [
+          "Energy applications",
+          0.327
+        ],
+        [
+          "SCROLL_DOWN",
+          0.306
+        ],
+        [
+          "Pollution",
+          0.146
+        ]
+      ]
+    },
+    {
+      "t": 10.14,
+      "kind": "arrive",
+      "title": "Energy applications of nanotechnology",
+      "hop": 8
+    },
+    {
+      "t": 10.87,
+      "kind": "decide",
+      "title": "Energy applications of nanotechnology",
+      "choice": "Nanotechnology",
+      "ms": 722,
+      "options": 25,
+      "top": [
+        [
+          "Nanotechnology",
+          0.31
+        ],
+        [
+          "List of nanotechnology applications",
+          0.303
+        ],
+        [
+          "Green nanotechnology",
+          0.124
+        ]
+      ]
+    },
+    {
+      "t": 11.29,
+      "kind": "arrive",
+      "title": "Nanotechnology",
+      "hop": 9
+    },
+    {
+      "t": 12.02,
+      "kind": "decide",
+      "title": "Nanotechnology",
+      "choice": "Nanoengineering",
+      "ms": 720,
+      "options": 25,
+      "top": [
+        [
+          "Nanoengineering",
+          0.968
+        ],
+        [
+          "nanochemistry",
+          0.013
+        ],
+        [
+          "SCROLL_DOWN",
+          0.005
+        ]
+      ]
+    },
+    {
+      "t": 12.44,
+      "kind": "arrive",
+      "title": "Nanoengineering",
+      "hop": 10
+    },
+    {
+      "t": 13.17,
+      "kind": "decide",
+      "title": "Nanoengineering",
+      "choice": "Nanomaterials",
+      "ms": 721,
+      "options": 25,
+      "top": [
+        [
+          "Nanomaterials",
+          0.947
+        ],
+        [
+          "Nanomedicine",
+          0.015
+        ],
+        [
+          "nanoscience",
+          0.013
+        ]
+      ]
+    },
+    {
+      "t": 13.59,
+      "kind": "arrive",
+      "title": "Nanomaterials",
+      "hop": 11
+    },
+    {
+      "t": 14.32,
+      "kind": "decide",
+      "title": "Nanomaterials",
+      "choice": "nanoparticles",
+      "ms": 717,
+      "options": 25,
+      "top": [
+        [
+          "nanoparticles",
+          0.926
+        ],
+        [
+          "Applications",
+          0.024
+        ],
+        [
+          "veterinary",
+          0.01
+        ]
+      ]
+    },
+    {
+      "t": 14.77,
+      "kind": "arrive",
+      "title": "Nanoparticle",
+      "hop": 12
+    },
+    {
+      "t": 15.49,
+      "kind": "decide",
+      "title": "Nanoparticle",
+      "choice": "electron microscopes or microscopes with laser",
+      "ms": 717,
+      "options": 25,
+      "top": [
+        [
+          "electron microscopes or microscopes with laser",
+          0.279
+        ],
+        [
+          "Carbon nanotubes",
+          0.244
+        ],
+        [
+          "Applications",
+          0.206
+        ]
+      ]
+    },
+    {
+      "t": 15.92,
+      "kind": "arrive",
+      "title": "Electron microscope",
+      "hop": 13
+    },
+    {
+      "t": 16.65,
+      "kind": "decide",
+      "title": "Electron microscope",
+      "choice": "Scanning electron microscope",
+      "ms": 722,
+      "options": 25,
+      "top": [
+        [
+          "Scanning electron microscope",
+          0.983
+        ],
+        [
+          "microscope",
+          0.011
+        ],
+        [
+          "electrons",
+          0.002
+        ]
+      ]
+    },
+    {
+      "t": 17.06,
+      "kind": "arrive",
+      "title": "Scanning electron microscope",
+      "hop": 14
+    },
+    {
+      "t": 17.79,
+      "kind": "decide",
+      "title": "Scanning electron microscope",
+      "choice": "secondary electrons",
+      "ms": 723,
+      "options": 25,
+      "top": [
+        [
+          "secondary electrons",
+          0.425
+        ],
+        [
+          "Scanning tunneling microscope",
+          0.254
+        ],
+        [
+          "transmission electron microscope",
+          0.112
+        ]
+      ]
+    },
+    {
+      "t": 18.19,
+      "kind": "arrive",
+      "title": "Secondary electrons",
+      "hop": 15
+    },
+    {
+      "t": 18.85,
+      "kind": "decide",
+      "title": "Secondary electrons",
+      "choice": "Microscope",
+      "ms": 645,
+      "options": 25,
+      "top": [
+        [
+          "Microscope",
+          0.979
+        ],
+        [
+          "Timeline of microscope technology",
+          0.015
+        ],
+        [
+          "radiation",
+          0.003
+        ]
+      ]
+    },
+    {
+      "t": 19.24,
+      "kind": "arrive",
+      "title": "Microscope",
+      "hop": 16
+    },
+    {
+      "t": 19.89,
+      "kind": "decide",
+      "title": "Microscope",
+      "choice": "electrons",
+      "ms": 641,
+      "options": 25,
+      "top": [
+        [
+          "electrons",
+          0.605
+        ],
+        [
+          "lenses",
+          0.089
+        ],
+        [
+          "Microscopy",
+          0.088
+        ]
+      ]
+    },
+    {
+      "t": 20.33,
+      "kind": "arrive",
+      "title": "Electron",
+      "hop": 17
+    },
+    {
+      "t": 20.98,
+      "kind": "decide",
+      "title": "Electron",
+      "choice": "SCROLL_DOWN",
+      "ms": 641,
+      "options": 25,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.502
+        ],
+        [
+          "Elementary particle",
+          0.126
+        ],
+        [
+          "shared",
+          0.058
+        ]
+      ]
+    },
+    {
+      "t": 21.66,
+      "kind": "decide",
+      "title": "Electron",
+      "choice": "electronics",
+      "ms": 404,
+      "options": 25,
+      "top": [
+        [
+          "electronics",
+          0.607
+        ],
+        [
+          "e",
+          0.095
+        ],
+        [
+          "Magnetic moment",
+          0.081
+        ]
+      ]
+    },
+    {
+      "t": 22.08,
+      "kind": "arrive",
+      "title": "Electronics",
+      "hop": 18
+    },
+    {
+      "t": 22.73,
+      "kind": "decide",
+      "title": "Electronics",
+      "choice": "electrical engineering",
+      "ms": 648,
+      "options": 25,
+      "top": [
+        [
+          "electrical engineering",
+          0.897
+        ],
+        [
+          "Consumer electronics",
+          0.045
+        ],
+        [
+          "physics",
+          0.01
+        ]
+      ]
+    },
+    {
+      "t": 23.15,
+      "kind": "arrive",
+      "title": "Electrical engineering",
+      "hop": 19
+    },
+    {
+      "t": 23.81,
+      "kind": "decide",
+      "title": "Electrical engineering",
+      "choice": "electrical circuits",
+      "ms": 650,
+      "options": 25,
+      "top": [
+        [
+          "electrical circuits",
+          0.871
+        ],
+        [
+          "electromagnetism",
+          0.051
+        ],
+        [
+          "electromagnetics",
+          0.019
+        ]
+      ]
+    },
+    {
+      "t": 24.2,
+      "kind": "arrive",
+      "title": "Electrical network",
+      "hop": 20
+    },
+    {
+      "t": 24.86,
+      "kind": "decide",
+      "title": "Electrical network",
+      "choice": "electrical components",
+      "ms": 654,
+      "options": 25,
+      "top": [
+        [
+          "electrical components",
+          0.635
+        ],
+        [
+          "electrical elements",
+          0.14
+        ],
+        [
+          "Electromagnetism",
+          0.125
+        ]
+      ]
+    },
+    {
+      "t": 25.27,
+      "kind": "arrive",
+      "title": "Electronic component",
+      "hop": 21
+    },
+    {
+      "t": 25.92,
+      "kind": "decide",
+      "title": "Electronic component",
+      "choice": "amplifier",
+      "ms": 645,
+      "options": 25,
+      "top": [
+        [
+          "amplifier",
+          0.958
+        ],
+        [
+          "SCROLL_DOWN",
+          0.009
+        ],
+        [
+          "electrons",
+          0.005
+        ]
+      ]
+    },
+    {
+      "t": 26.33,
+      "kind": "arrive",
+      "title": "Amplifier",
+      "hop": 22
+    },
+    {
+      "t": 26.99,
+      "kind": "decide",
+      "title": "Amplifier",
+      "choice": "audio amplifiers",
+      "ms": 650,
+      "options": 25,
+      "top": [
+        [
+          "audio amplifiers",
+          0.999
+        ],
+        [
+          "voltage",
+          0.0
+        ],
+        [
+          "preamplifier",
+          0.0
+        ]
+      ]
+    },
+    {
+      "t": 27.39,
+      "kind": "arrive",
+      "title": "Audio power amplifier",
+      "hop": 23
+    },
+    {
+      "t": 28.05,
+      "kind": "decide",
+      "title": "Audio power amplifier",
+      "choice": "pickup",
+      "ms": 652,
+      "options": 25,
+      "top": [
+        [
+          "pickup",
+          0.742
+        ],
+        [
+          "guitar amplifiers",
+          0.057
+        ],
+        [
+          "RF power amplifier",
+          0.054
+        ]
+      ]
+    },
+    {
+      "t": 28.48,
+      "kind": "arrive",
+      "title": "Pickup (music technology)",
+      "hop": 24
+    },
+    {
+      "t": 29.21,
+      "kind": "decide",
+      "title": "Pickup (music technology)",
+      "choice": "Acoustic guitars",
+      "ms": 721,
+      "options": 25,
+      "top": [
+        [
+          "Acoustic guitars",
+          0.81
+        ],
+        [
+          "musical instruments",
+          0.077
+        ],
+        [
+          "Magnetic cartridge",
+          0.033
+        ]
+      ]
+    },
+    {
+      "t": 29.61,
+      "kind": "arrive",
+      "title": "Acoustic guitar",
+      "hop": 25
+    },
+    {
+      "t": 30.27,
+      "kind": "decide",
+      "title": "Acoustic guitar",
+      "choice": "Related instruments",
+      "ms": 650,
+      "options": 25,
+      "top": [
+        [
+          "Related instruments",
+          0.999
+        ],
+        [
+          "String instrument",
+          0.0
+        ],
+        [
+          "timbre",
+          0.0
+        ]
+      ]
+    },
+    {
+      "t": 30.68,
+      "kind": "arrive",
+      "title": "Musical instrument",
+      "hop": 26
+    },
+    {
+      "t": 31.33,
+      "kind": "decide",
+      "title": "Musical instrument",
+      "choice": "electronic instruments",
+      "ms": 646,
+      "options": 25,
+      "top": [
+        [
+          "electronic instruments",
+          0.999
+        ],
+        [
+          "drum",
+          0.0
+        ],
+        [
+          "electric guitars",
+          0.0
+        ]
+      ]
+    }
+  ]
+}

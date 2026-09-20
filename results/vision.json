@@ -1,0 +1,188 @@
+[
+  {
+    "image": "cat",
+    "task": "matched",
+    "question": "Is this a cat?",
+    "choice": "true",
+    "probabilities": {
+      "true": 0.9995763971533342,
+      "false": 0.00042360284666578384
+    },
+    "label_mass": 0.995388,
+    "forward_s": 9.258,
+    "tokens": 647,
+    "correct": true
+  },
+  {
+    "image": "dog",
+    "task": "matched",
+    "question": "Is this a dog?",
+    "choice": "true",
+    "probabilities": {
+      "true": 0.9967979386123247,
+      "false": 0.0032020613876754035
+    },
+    "label_mass": 0.993576,
+    "forward_s": 6.747,
+    "tokens": 455,
+    "correct": true
+  },
+  {
+    "image": "tiger",
+    "task": "matched",
+    "question": "Is this a tiger?",
+    "choice": "true",
+    "probabilities": {
+      "true": 0.9997214463184295,
+      "false": 0.0002785536815703436
+    },
+    "label_mass": 0.995816,
+    "forward_s": 6.807,
+    "tokens": 455,
+    "correct": true
+  },
+  {
+    "image": "car",
+    "task": "matched",
+    "question": "Is this a car?",
+    "choice": "true",
+    "probabilities": {
+      "true": 0.9997040264623578,
+      "false": 0.00029597353764215356
+    },
+    "label_mass": 0.996544,
+    "forward_s": 6.792,
+    "tokens": 455,
+    "correct": true
+  },
+  {
+    "image": "bicycle",
+    "task": "matched",
+    "question": "Is this a bike?",
+    "choice": "true",
+    "probabilities": {
+      "true": 0.9993946790834917,
+      "false": 0.0006053209165083563
+    },
+    "label_mass": 0.996335,
+    "forward_s": 6.813,
+    "tokens": 455,
+    "correct": true
+  },
+  {
+    "image": "pizza",
+    "task": "matched",
+    "question": "Is this a pizza?",
+    "choice": "true",
+    "probabilities": {
+      "true": 0.9991022475623029,
+      "false": 0.0008977524376969812
+    },
+    "label_mass": 0.995035,
+    "forward_s": 6.782,
+    "tokens": 455,
+    "correct": true
+  },
+  {
+    "image": "cat",
+    "task": "subject",
+    "choice": "cat",
+    "probabilities": {
+      "cat": 0.9994580918025503,
+      "dog": 0.00013233928512512886,
+      "tiger": 0.00021666198790499963,
+      "car": 3.265898110158406e-05,
+      "bicycle": 4.7856439712729244e-05,
+      "pizza": 0.00011239150360510688
+    },
+    "label_mass": 0.994583,
+    "forward_s": 8.889,
+    "tokens": 667,
+    "correct": true
+  },
+  {
+    "image": "dog",
+    "task": "subject",
+    "choice": "dog",
+    "probabilities": {
+      "cat": 0.0001577453778739411,
+      "dog": 0.9994391987895338,
+      "tiger": 9.790206664244521e-05,
+      "car": 9.581181519506942e-05,
+      "bicycle": 5.8975786016789494e-05,
+      "pizza": 0.0001503661647380323
+    },
+    "label_mass": 0.99548,
+    "forward_s": 6.378,
+    "tokens": 475,
+    "correct": true
+  },
+  {
+    "image": "tiger",
+    "task": "subject",
+    "choice": "tiger",
+    "probabilities": {
+      "cat": 9.338615132377938e-05,
+      "dog": 5.539509094089869e-05,
+      "tiger": 0.999763610637263,
+      "car": 0.0,
+      "bicycle": 2.934213105081676e-05,
+      "pizza": 5.826598942142912e-05
+    },
+    "label_mass": 0.997798,
+    "forward_s": 6.368,
+    "tokens": 475,
+    "correct": true
+  },
+  {
+    "image": "car",
+    "task": "subject",
+    "choice": "car",
+    "probabilities": {
+      "cat": 0.0001075377172629416,
+      "dog": 6.57378672245563e-05,
+      "tiger": 0.00011528830920224947,
+      "car": 0.9994762161433581,
+      "bicycle": 5.825690982697126e-05,
+      "pizza": 0.0001769630531251289
+    },
+    "label_mass": 0.996859,
+    "forward_s": 6.371,
+    "tokens": 475,
+    "correct": true
+  },
+  {
+    "image": "bicycle",
+    "task": "subject",
+    "choice": "bicycle",
+    "probabilities": {
+      "cat": 9.66107523009835e-05,
+      "dog": 6.989731836412162e-05,
+      "tiger": 5.1280525485851397e-05,
+      "car": 0.00022159536631020715,
+      "bicycle": 0.9993582883239785,
+      "pizza": 0.0002023277135603224
+    },
+    "label_mass": 0.997425,
+    "forward_s": 6.369,
+    "tokens": 475,
+    "correct": true
+  },
+  {
+    "image": "pizza",
+    "task": "subject",
+    "choice": "pizza",
+    "probabilities": {
+      "cat": 5.92179453035833e-05,
+      "dog": 3.31641607271516e-05,
+      "tiger": 3.387872643704389e-05,
+      "car": 0.0004970401466017436,
+      "bicycle": 0.00178255469278441,
+      "pizza": 0.997594144328146
+    },
+    "label_mass": 0.997617,
+    "forward_s": 6.365,
+    "tokens": 475,
+    "correct": true
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "model": "Bonsai-8B",
+  "size_gb": 1.16,
+  "start": "LangChain",
+  "goal": "Microphone",
+  "arrived": true,
+  "path": [
+    "LangChain",
+    "Chatbot",
+    "Chatbot (disambiguation)",
+    "Virtual assistant",
+    "Virtual assistant (occupation)",
+    "Virtual office",
+    "Serviced office",
+    "Office supplies",
+    "Equipment",
+    "Audio equipment",
+    "Microphone"
+  ],
+  "clicks": 10,
+  "decisions": 13,
+  "wall_s": 25.47,
+  "model_s": 6.6,
+  "ms_per_decision": 508
+}

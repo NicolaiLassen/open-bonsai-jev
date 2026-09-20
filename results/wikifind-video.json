@@ -1,0 +1,372 @@
+{
+  "model": "Bonsai-8B",
+  "size_gb": 1.16,
+  "load_s": 1.02,
+  "wall_s": 36.93,
+  "model_s": 4.36,
+  "median_ms": 412,
+  "correct": 9,
+  "graded": 10,
+  "rows": [
+    {
+      "question": "the Danish author who wrote The Little Mermaid and The Ugly Duckling",
+      "expected": "Hans Christian Andersen",
+      "choice": "Hans Christian Andersen",
+      "landed": "Hans Christian Andersen",
+      "p": 0.9999316154837574,
+      "n": 12,
+      "top": [
+        [
+          "Hans Christian Andersen",
+          0.9999316154837574
+        ],
+        [
+          "Hans Christian Andersen bibliography",
+          3.733039258325465e-05
+        ],
+        [
+          "Hans Christian Andersen (film)",
+          1.3465997985996986e-05
+        ]
+      ],
+      "forward_s": 0.5995757500058971,
+      "nav_s": 1.3708684579760302,
+      "open_s": 0.1464776659850031,
+      "runner_up": [
+        [
+          "Hans Christian Andersen bibliography",
+          3.733039258325465e-05
+        ],
+        [
+          "Hans Christian Andersen (film)",
+          1.3465997985996986e-05
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the ship that sank after hitting an iceberg in 1912",
+      "expected": "Titanic",
+      "choice": "Titanic",
+      "landed": "Titanic",
+      "p": 0.997999495805255,
+      "n": 12,
+      "top": [
+        [
+          "Titanic",
+          0.997999495805255
+        ],
+        [
+          "Titanic (ship)",
+          0.0017762587795654345
+        ],
+        [
+          "Sinking of the Titanic",
+          0.00017837678370977072
+        ]
+      ],
+      "forward_s": 0.41199241697904654,
+      "nav_s": 1.192780249984935,
+      "open_s": 0.18417895800666884,
+      "runner_up": [
+        [
+          "Titanic (ship)",
+          0.0017762587795654345
+        ],
+        [
+          "Sinking of the Titanic",
+          0.00017837678370977072
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the war fought in the United States between 1861 and 1865",
+      "expected": "American Civil War",
+      "choice": "American Civil War",
+      "landed": "American Civil War",
+      "p": 0.9999789670103155,
+      "n": 12,
+      "top": [
+        [
+          "American Civil War",
+          0.9999789670103155
+        ],
+        [
+          "Confederate States of America",
+          1.8637855155563764e-05
+        ],
+        [
+          "United States Army",
+          1.0125290059648634e-06
+        ]
+      ],
+      "forward_s": 0.4800737500190735,
+      "nav_s": 2.0144458749855403,
+      "open_s": 0.14561183299520053,
+      "runner_up": [
+        [
+          "Confederate States of America",
+          1.8637855155563764e-05
+        ],
+        [
+          "United States Army",
+          1.0125290059648634e-06
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the ocean between Africa and Australia",
+      "expected": "Indian Ocean",
+      "choice": "Indian Ocean",
+      "landed": "Indian Ocean",
+      "p": 0.9232588920600362,
+      "n": 12,
+      "top": [
+        [
+          "Indian Ocean",
+          0.9232588920600362
+        ],
+        [
+          "Pacific Ocean",
+          0.06777803770664262
+        ],
+        [
+          "List of countries bordering on two or more oceans",
+          0.002556811438754291
+        ]
+      ],
+      "forward_s": 0.40634570899419487,
+      "nav_s": 1.1828157499840017,
+      "open_s": 0.15396649998729117,
+      "runner_up": [
+        [
+          "Pacific Ocean",
+          0.06777803770664262
+        ],
+        [
+          "List of countries bordering on two or more oceans",
+          0.002556811438754291
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the spacecraft mission that first landed humans on the Moon",
+      "expected": "Apollo 11",
+      "choice": "Apollo program",
+      "landed": "Apollo program",
+      "p": 0.990634669044435,
+      "n": 12,
+      "top": [
+        [
+          "Apollo program",
+          0.990634669044435
+        ],
+        [
+          "Moon landing",
+          0.006161611756218924
+        ],
+        [
+          "Apollo moon mission",
+          0.0025151915760450727
+        ]
+      ],
+      "forward_s": 0.4088511249865405,
+      "nav_s": 1.4619248750095721,
+      "open_s": 0.1606872080010362,
+      "runner_up": [
+        [
+          "Moon landing",
+          0.006161611756218924
+        ],
+        [
+          "Apollo moon mission",
+          0.0025151915760450727
+        ]
+      ],
+      "correct": false
+    },
+    {
+      "question": "the physicist who developed the theory of general relativity",
+      "expected": "Albert Einstein",
+      "choice": "Albert Einstein",
+      "landed": "Albert Einstein",
+      "p": 0.984862408721801,
+      "n": 12,
+      "top": [
+        [
+          "Albert Einstein",
+          0.984862408721801
+        ],
+        [
+          "Einstein (physicist)",
+          0.0073931161999765595
+        ],
+        [
+          "General relativity",
+          0.004901094135692452
+        ]
+      ],
+      "forward_s": 0.4113509170128964,
+      "nav_s": 1.155675791989779,
+      "open_s": 0.17025695799384266,
+      "runner_up": [
+        [
+          "Einstein (physicist)",
+          0.0073931161999765595
+        ],
+        [
+          "General relativity",
+          0.004901094135692452
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the Italian artist who painted the Mona Lisa",
+      "expected": "Leonardo da Vinci",
+      "choice": "Leonardo da Vinci",
+      "landed": "Leonardo da Vinci",
+      "p": 0.9829767885330015,
+      "n": 12,
+      "top": [
+        [
+          "Leonardo da Vinci",
+          0.9829767885330015
+        ],
+        [
+          "Lisa del Giocondo",
+          0.01257416852728504
+        ],
+        [
+          "Mona Lisa",
+          0.003038549758993395
+        ]
+      ],
+      "forward_s": 0.40828858298482373,
+      "nav_s": 1.88854749998427,
+      "open_s": 0.0701420420082286,
+      "runner_up": [
+        [
+          "Lisa del Giocondo",
+          0.01257416852728504
+        ],
+        [
+          "Mona Lisa",
+          0.003038549758993395
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the high-level programming language created by Guido van Rossum",
+      "expected": "Python (programming language)",
+      "choice": "Python (programming language)",
+      "landed": "Python (programming language)",
+      "p": 0.999991750709041,
+      "n": 12,
+      "top": [
+        [
+          "Python (programming language)",
+          0.999991750709041
+        ],
+        [
+          "ABC (programming language)",
+          4.074642583300433e-06
+        ],
+        [
+          "Outline of the Python programming language",
+          3.8889559557150635e-06
+        ]
+      ],
+      "forward_s": 0.4164607499842532,
+      "nav_s": 1.0809168750129174,
+      "open_s": 0.15206858300371096,
+      "runner_up": [
+        [
+          "ABC (programming language)",
+          4.074642583300433e-06
+        ],
+        [
+          "Outline of the Python programming language",
+          3.8889559557150635e-06
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the Danish physicist who founded quantum atomic theory",
+      "expected": "Niels Bohr",
+      "choice": "Niels Bohr",
+      "landed": "Niels Bohr",
+      "p": 0.9999045636861239,
+      "n": 12,
+      "top": [
+        [
+          "Niels Bohr",
+          0.9999045636861239
+        ],
+        [
+          "Lev Landau",
+          4.579903204990294e-05
+        ],
+        [
+          "Copenhagen interpretation",
+          3.538956766625371e-05
+        ]
+      ],
+      "forward_s": 0.32891520799603313,
+      "nav_s": 1.1353143749875017,
+      "open_s": 0.14784449999569915,
+      "runner_up": [
+        [
+          "Lev Landau",
+          4.579903204990294e-05
+        ],
+        [
+          "Copenhagen interpretation",
+          3.538956766625371e-05
+        ]
+      ],
+      "correct": true
+    },
+    {
+      "question": "the 1986 nuclear accident in Soviet Ukraine",
+      "expected": "Chernobyl disaster",
+      "choice": "Chernobyl disaster",
+      "landed": "Chernobyl disaster",
+      "p": 0.7087666057892987,
+      "n": 12,
+      "top": [
+        [
+          "Chernobyl disaster",
+          0.7087666057892987
+        ],
+        [
+          "1986 Chernobyl Nuclear Accident",
+          0.29004509677278867
+        ],
+        [
+          "Nuclear and radiation accidents and incidents",
+          0.0010953666104789434
+        ]
+      ],
+      "forward_s": 0.48361816597753204,
+      "nav_s": 1.779285583004821,
+      "open_s": 0.17306691702106036,
+      "runner_up": [
+        [
+          "1986 Chernobyl Nuclear Accident",
+          0.29004509677278867
+        ],
+        [
+          "Nuclear and radiation accidents and incidents",
+          0.0010953666104789434
+        ]
+      ],
+      "correct": true
+    }
+  ]
+}

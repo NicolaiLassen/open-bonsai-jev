@@ -1,0 +1,23 @@
+# weights and runtimes — all rebuildable, none of it belongs in git
+models/
+*.gguf
+*.safetensors
+llama.cpp/
+llama.cpp-prism/
+llama.cpp-vulkan/
+llama.cpp-metal/
+
+# virtualenvs (the MLX one alone is tens of thousands of files)
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+
+# per-run scorer output is large and regenerable; the summary is not
+results/*.jsonl
+!results/benchmark.json
+
+.DS_Store
+
+# raw Playwright recordings; the composited mp4/gif are what we keep
+demos/browser/video/

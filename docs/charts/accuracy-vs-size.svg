@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-label="Accuracy per gigabyte">
+  <style>
+    :root { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --ink3:#84837d; --grid:#e4e3df; --s1:#2a78d6; --s2:#eb6834; --t0:#86b6ef; --t1:#3987e5; --t2:#1c5cab; --s3:#1baf7a; }
+    @media (prefers-color-scheme: dark) {
+    :root { --surface:#1a1a19; --ink:#ffffff; --ink2:#c3c2b7; --ink3:#8a897f; --grid:#33322f; --s1:#3987e5; --s2:#d95926; --t0:#9ec5f4; --t1:#3987e5; --t2:#184f95; --s3:#199e70; }
+    }
+    .bg { fill: var(--surface); }
+    .ttl { fill: var(--ink); font: 600 15px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .sub { fill: var(--ink2); font: 400 11.5px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .lab { fill: var(--ink); font: 400 12px -apple-system, "Segoe UI", system-ui, sans-serif; }
+    .val { fill: var(--ink); font: 600 12px ui-monospace, "SF Mono", Menlo, monospace; }
+    .tick { fill: var(--ink3); font: 400 10.5px ui-monospace, "SF Mono", Menlo, monospace; }
+    .note { fill: var(--ink3); font: 400 10.5px -apple-system, system-ui, sans-serif; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--ink3); stroke-width: 1; }
+    .ref  { stroke: var(--ink3); stroke-width: 1; stroke-dasharray: 4 3; }
+    .refh { stroke: var(--s3); stroke-width: 2; stroke-dasharray: 7 4; }
+    .noteh { fill: var(--s3); font: 600 11.5px -apple-system, system-ui, sans-serif; }
+    .g1 { fill: var(--s1); }  .g2 { fill: var(--s2); }
+    .g0 { fill: var(--s3); }
+    .tier0 { fill: var(--t0); } .tier1 { fill: var(--t1); } .tier2 { fill: var(--t2); }
+    .g1s { stroke: var(--s1); } .g2s { stroke: var(--s2); }
+    .g0s { stroke: var(--s3); }
+  </style>
+  <rect class="bg" width="720" height="430" rx="8"/>
+  <text x="24" y="30" class="ttl">Accuracy per gigabyte</text>
+  <text x="24" y="48" class="sub">WANLI-256 accuracy against weights on disk.</text>
+<rect x="68" y="54" width="10" height="10" rx="2.5" class="g1"/><text x="83" y="63" class="sub">Bonsai 1</text><rect x="138" y="54" width="10" height="10" rx="2.5" class="g2"/><text x="153" y="63" class="sub">Bonsai 2</text><rect x="208" y="54" width="10" height="10" rx="2.5" class="g0"/><text x="223" y="63" class="sub">Jev (hosted, no local weights)</text><line class="grid" x1="68" y1="364.0" x2="690" y2="364.0"/><text x="58" y="368.0" class="tick" text-anchor="end">44%</text><line class="grid" x1="68" y1="292.0" x2="690" y2="292.0"/><text x="58" y="296.0" class="tick" text-anchor="end">55%</text><line class="grid" x1="68" y1="220.0" x2="690" y2="220.0"/><text x="58" y="224.0" class="tick" text-anchor="end">66%</text><line class="grid" x1="68" y1="148.0" x2="690" y2="148.0"/><text x="58" y="152.0" class="tick" text-anchor="end">77%</text><line class="grid" x1="68" y1="76.0" x2="690" y2="76.0"/><text x="58" y="80.0" class="tick" text-anchor="end">88%</text><text x="68.0" y="382" class="tick" text-anchor="middle">0.0</text><text x="223.5" y="382" class="tick" text-anchor="middle">1.7</text><text x="379.0" y="382" class="tick" text-anchor="middle">3.3</text><text x="534.5" y="382" class="tick" text-anchor="middle">5.0</text><text x="690.0" y="382" class="tick" text-anchor="middle">6.7</text><line class="axis" x1="68" y1="364" x2="690" y2="364"/><circle cx="91.2" cy="311.3" r="8" fill="var(--surface)"/><circle class="g1" cx="91.2" cy="311.3" r="6"/><text x="103.2" y="315.3" class="lab" text-anchor="start">Bonsai 1 1.7B</text><circle cx="121.4" cy="257.3" r="8" fill="var(--surface)"/><circle class="g1" cx="121.4" cy="257.3" r="6"/><text x="133.4" y="261.3" class="lab" text-anchor="start">Bonsai 1 4B</text><circle cx="176.2" cy="229.0" r="8" fill="var(--surface)"/><circle class="g1" cx="176.2" cy="229.0" r="6"/><text x="188.2" y="233.0" class="lab" text-anchor="start">Bonsai 1 8B</text><circle cx="423.1" cy="185.3" r="8" fill="var(--surface)"/><circle class="g1" cx="423.1" cy="185.3" r="6"/><text x="435.1" y="189.3" class="lab" text-anchor="start">Bonsai 1 27B</text><circle cx="271.8" cy="223.9" r="8" fill="var(--surface)"/><circle class="g1" cx="271.8" cy="223.9" r="6"/><text x="283.8" y="227.9" class="lab" text-anchor="start">Ternary Bonsai 1 8B</text><circle cx="623.4" cy="162.1" r="8" fill="var(--surface)"/><circle class="g2" cx="623.4" cy="162.1" r="6"/><text x="611.4" y="166.1" class="lab" text-anchor="end">Bonsai 2 27B</text><line class="refh" x1="68" y1="128.7" x2="690" y2="128.7"/><text x="686" y="119.7" class="noteh" text-anchor="end">Jev (hosted) 79.7%, no local weights</text><text x="379.0" y="404" class="sub" text-anchor="middle">weights on disk (GB)</text><text x="24" y="422" class="note">Up and to the left is better: more accuracy per gigabyte.</text></svg>

@@ -1,0 +1,701 @@
+{
+  "model": "Bonsai-8B",
+  "size_gb": 1.16,
+  "start": "LangChain",
+  "goal": "Microphone",
+  "arrived": false,
+  "path": [
+    "LangChain",
+    "Chatbot",
+    "Chatbot (disambiguation)",
+    "Virtual assistant",
+    "Virtual assistant (occupation)",
+    "Virtual office",
+    "Serviced office",
+    "Coworking",
+    "Remote work",
+    "Work from Home (disambiguation)",
+    "Work-at-home scheme",
+    "Get-rich-quick scheme",
+    "Easy Money",
+    "Easy Money (album)",
+    "Album",
+    "Album (disambiguation)",
+    "The Album",
+    "The Album (Lil Rob album)",
+    "Lil Rob discography"
+  ],
+  "clicks": 18,
+  "decisions": 25,
+  "wall_s": 26.82,
+  "model_s": 13.74,
+  "ms_per_decision": 550,
+  "video": "/Users/nicolailassen/Desktop/personlig/open-bonzi-jev/demos/browser/video/page@7f147d611b4cfdb6caf0d1df8a3b9522.webm",
+  "video_end_s": 26.58,
+  "timeline": [
+    {
+      "t": 0.54,
+      "kind": "arrive",
+      "title": "LangChain",
+      "hop": 0
+    },
+    {
+      "t": 1.35,
+      "kind": "decide",
+      "title": "LangChain",
+      "choice": "chatbots",
+      "ms": 795,
+      "options": 25,
+      "top": [
+        [
+          "chatbots",
+          0.544
+        ],
+        [
+          "large language model",
+          0.228
+        ],
+        [
+          "API",
+          0.103
+        ]
+      ]
+    },
+    {
+      "t": 1.74,
+      "kind": "arrive",
+      "title": "Chatbot",
+      "hop": 1
+    },
+    {
+      "t": 2.39,
+      "kind": "decide",
+      "title": "Chatbot",
+      "choice": "Chatbot (disambiguation)",
+      "ms": 646,
+      "options": 25,
+      "top": [
+        [
+          "Chatbot (disambiguation)",
+          0.941
+        ],
+        [
+          "software",
+          0.026
+        ],
+        [
+          "virtual assistant",
+          0.019
+        ]
+      ]
+    },
+    {
+      "t": 2.79,
+      "kind": "arrive",
+      "title": "Chatbot (disambiguation)",
+      "hop": 2
+    },
+    {
+      "t": 3.13,
+      "kind": "decide",
+      "title": "Chatbot (disambiguation)",
+      "choice": "Virtual assistant",
+      "ms": 331,
+      "options": 3,
+      "top": [
+        [
+          "Virtual assistant",
+          0.891
+        ],
+        [
+          "IRC bot",
+          0.078
+        ],
+        [
+          "SCROLL_DOWN",
+          0.031
+        ]
+      ]
+    },
+    {
+      "t": 3.53,
+      "kind": "arrive",
+      "title": "Virtual assistant",
+      "hop": 3
+    },
+    {
+      "t": 4.27,
+      "kind": "decide",
+      "title": "Virtual assistant",
+      "choice": "Virtual assistant (occupation)",
+      "ms": 731,
+      "options": 25,
+      "top": [
+        [
+          "Virtual assistant (occupation)",
+          0.629
+        ],
+        [
+          "Embodied agent",
+          0.161
+        ],
+        [
+          "Personal digital assistant",
+          0.139
+        ]
+      ]
+    },
+    {
+      "t": 4.65,
+      "kind": "arrive",
+      "title": "Virtual assistant (occupation)",
+      "hop": 4
+    },
+    {
+      "t": 5.15,
+      "kind": "decide",
+      "title": "Virtual assistant (occupation)",
+      "choice": "SCROLL_DOWN",
+      "ms": 485,
+      "options": 10,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.682
+        ],
+        [
+          "VOIP",
+          0.13
+        ],
+        [
+          "intelligent agent",
+          0.099
+        ]
+      ]
+    },
+    {
+      "t": 5.66,
+      "kind": "decide",
+      "title": "Virtual assistant (occupation)",
+      "choice": "Virtual office",
+      "ms": 246,
+      "options": 12,
+      "top": [
+        [
+          "Virtual office",
+          0.799
+        ],
+        [
+          "SCROLL_DOWN",
+          0.113
+        ],
+        [
+          "Google Voice",
+          0.025
+        ]
+      ]
+    },
+    {
+      "t": 6.05,
+      "kind": "arrive",
+      "title": "Virtual office",
+      "hop": 5
+    },
+    {
+      "t": 6.47,
+      "kind": "decide",
+      "title": "Virtual office",
+      "choice": "SCROLL_DOWN",
+      "ms": 410,
+      "options": 8,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.444
+        ],
+        [
+          "executive suite",
+          0.313
+        ],
+        [
+          "home office",
+          0.089
+        ]
+      ]
+    },
+    {
+      "t": 7.14,
+      "kind": "decide",
+      "title": "Virtual office",
+      "choice": "serviced office",
+      "ms": 402,
+      "options": 22,
+      "top": [
+        [
+          "serviced office",
+          0.831
+        ],
+        [
+          "cloud storage",
+          0.053
+        ],
+        [
+          "remote work",
+          0.019
+        ]
+      ]
+    },
+    {
+      "t": 7.53,
+      "kind": "arrive",
+      "title": "Serviced office",
+      "hop": 6
+    },
+    {
+      "t": 8.12,
+      "kind": "decide",
+      "title": "Serviced office",
+      "choice": "Coworking spaces",
+      "ms": 579,
+      "options": 15,
+      "top": [
+        [
+          "Coworking spaces",
+          0.344
+        ],
+        [
+          "ServCorp",
+          0.268
+        ],
+        [
+          "business machines",
+          0.22
+        ]
+      ]
+    },
+    {
+      "t": 8.52,
+      "kind": "arrive",
+      "title": "Coworking",
+      "hop": 7
+    },
+    {
+      "t": 9.18,
+      "kind": "decide",
+      "title": "Coworking",
+      "choice": "remote workers",
+      "ms": 650,
+      "options": 22,
+      "top": [
+        [
+          "remote workers",
+          0.747
+        ],
+        [
+          "WeWork",
+          0.186
+        ],
+        [
+          "Impact Hub",
+          0.041
+        ]
+      ]
+    },
+    {
+      "t": 9.59,
+      "kind": "arrive",
+      "title": "Remote work",
+      "hop": 8
+    },
+    {
+      "t": 10.24,
+      "kind": "decide",
+      "title": "Remote work",
+      "choice": "Work from Home (disambiguation)",
+      "ms": 646,
+      "options": 21,
+      "top": [
+        [
+          "Work from Home (disambiguation)",
+          0.421
+        ],
+        [
+          "communication",
+          0.382
+        ],
+        [
+          "WFH (disambiguation)",
+          0.109
+        ]
+      ]
+    },
+    {
+      "t": 10.93,
+      "kind": "arrive",
+      "title": "Work from Home (disambiguation)",
+      "hop": 9
+    },
+    {
+      "t": 11.42,
+      "kind": "decide",
+      "title": "Work from Home (disambiguation)",
+      "choice": "Work-at-home scheme",
+      "ms": 481,
+      "options": 4,
+      "top": [
+        [
+          "Work-at-home scheme",
+          0.913
+        ],
+        [
+          "Right Here Right Now",
+          0.037
+        ],
+        [
+          "SCROLL_DOWN",
+          0.027
+        ]
+      ]
+    },
+    {
+      "t": 12.52,
+      "kind": "arrive",
+      "title": "Work-at-home scheme",
+      "hop": 10
+    },
+    {
+      "t": 12.94,
+      "kind": "decide",
+      "title": "Work-at-home scheme",
+      "choice": "SCROLL_DOWN",
+      "ms": 413,
+      "options": 6,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.527
+        ],
+        [
+          "business opportunity",
+          0.206
+        ],
+        [
+          "job offer",
+          0.203
+        ]
+      ]
+    },
+    {
+      "t": 13.38,
+      "kind": "decide",
+      "title": "Work-at-home scheme",
+      "choice": "SCROLL_DOWN",
+      "ms": 171,
+      "options": 4,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.932
+        ],
+        [
+          "Federal Trade Commission",
+          0.03
+        ],
+        [
+          "money mule",
+          0.021
+        ]
+      ]
+    },
+    {
+      "t": 13.81,
+      "kind": "decide",
+      "title": "Work-at-home scheme",
+      "choice": "Get-rich-quick scheme",
+      "ms": 172,
+      "options": 5,
+      "top": [
+        [
+          "Get-rich-quick scheme",
+          0.823
+        ],
+        [
+          "identity theft",
+          0.112
+        ],
+        [
+          "Employment fraud",
+          0.051
+        ]
+      ]
+    },
+    {
+      "t": 14.23,
+      "kind": "arrive",
+      "title": "Get-rich-quick scheme",
+      "hop": 11
+    },
+    {
+      "t": 14.8,
+      "kind": "decide",
+      "title": "Get-rich-quick scheme",
+      "choice": "Easy Money (disambiguation)",
+      "ms": 565,
+      "options": 12,
+      "top": [
+        [
+          "Easy Money (disambiguation)",
+          0.493
+        ],
+        [
+          "business opportunity",
+          0.45
+        ],
+        [
+          "Get Rich Quick (novel)",
+          0.03
+        ]
+      ]
+    },
+    {
+      "t": 15.53,
+      "kind": "arrive",
+      "title": "Easy Money",
+      "hop": 12
+    },
+    {
+      "t": 16.41,
+      "kind": "decide",
+      "title": "Easy Money",
+      "choice": "Easy Money (album)",
+      "ms": 869,
+      "options": 25,
+      "top": [
+        [
+          "Easy Money (album)",
+          0.331
+        ],
+        [
+          "Easy Money (2010 film)",
+          0.135
+        ],
+        [
+          "Easy Money (1925 film)",
+          0.124
+        ]
+      ]
+    },
+    {
+      "t": 17.1,
+      "kind": "arrive",
+      "title": "Easy Money (album)",
+      "hop": 13
+    },
+    {
+      "t": 17.84,
+      "kind": "decide",
+      "title": "Easy Money (album)",
+      "choice": "Studio album",
+      "ms": 730,
+      "options": 25,
+      "top": [
+        [
+          "Studio album",
+          0.929
+        ],
+        [
+          "Bigger Hands",
+          0.016
+        ],
+        [
+          "SCROLL_DOWN",
+          0.014
+        ]
+      ]
+    },
+    {
+      "t": 18.54,
+      "kind": "arrive",
+      "title": "Album",
+      "hop": 14
+    },
+    {
+      "t": 19.26,
+      "kind": "decide",
+      "title": "Album",
+      "choice": "Album (disambiguation)",
+      "ms": 713,
+      "options": 25,
+      "top": [
+        [
+          "Album (disambiguation)",
+          0.998
+        ],
+        [
+          "music",
+          0.001
+        ],
+        [
+          "Music Album (TV series)",
+          0.001
+        ]
+      ]
+    },
+    {
+      "t": 20.29,
+      "kind": "arrive",
+      "title": "Album (disambiguation)",
+      "hop": 15
+    },
+    {
+      "t": 21.19,
+      "kind": "decide",
+      "title": "Album (disambiguation)",
+      "choice": "The Album (disambiguation)",
+      "ms": 887,
+      "options": 25,
+      "top": [
+        [
+          "The Album (disambiguation)",
+          0.443
+        ],
+        [
+          "C. album (disambiguation)",
+          0.418
+        ],
+        [
+          "SCROLL_DOWN",
+          0.068
+        ]
+      ]
+    },
+    {
+      "t": 21.83,
+      "kind": "arrive",
+      "title": "The Album",
+      "hop": 16
+    },
+    {
+      "t": 22.72,
+      "kind": "decide",
+      "title": "The Album",
+      "choice": "The Album (Lil Rob album)",
+      "ms": 882,
+      "options": 25,
+      "top": [
+        [
+          "The Album (Lil Rob album)",
+          0.285
+        ],
+        [
+          "The Album (Dj Shah album)",
+          0.23
+        ],
+        [
+          "The Album (Cliff Richard album)",
+          0.105
+        ]
+      ]
+    },
+    {
+      "t": 23.6,
+      "kind": "arrive",
+      "title": "The Album (Lil Rob album)",
+      "hop": 17
+    },
+    {
+      "t": 24.33,
+      "kind": "decide",
+      "title": "The Album (Lil Rob album)",
+      "choice": "SCROLL_DOWN",
+      "ms": 725,
+      "options": 23,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.557
+        ],
+        [
+          "Discography",
+          0.366
+        ],
+        [
+          "Top R&B/Hip-Hop Albums",
+          0.029
+        ]
+      ]
+    },
+    {
+      "t": 25.0,
+      "kind": "decide",
+      "title": "The Album (Lil Rob album)",
+      "choice": "Discography",
+      "ms": 402,
+      "options": 18,
+      "top": [
+        [
+          "Discography",
+          0.794
+        ],
+        [
+          "SCROLL_DOWN",
+          0.202
+        ],
+        [
+          "Billboard",
+          0.001
+        ]
+      ]
+    },
+    {
+      "t": 25.5,
+      "kind": "arrive",
+      "title": "Lil Rob discography",
+      "hop": 18
+    },
+    {
+      "t": 26.07,
+      "kind": "decide",
+      "title": "Lil Rob discography",
+      "choice": "SCROLL_DOWN",
+      "ms": 559,
+      "options": 13,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.463
+        ],
+        [
+          "Lil Rob",
+          0.445
+        ],
+        [
+          "Chicano rapper",
+          0.036
+        ]
+      ]
+    },
+    {
+      "t": 26.58,
+      "kind": "decide",
+      "title": "Lil Rob discography",
+      "choice": "SCROLL_DOWN",
+      "ms": 250,
+      "options": 11,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.511
+        ],
+        [
+          "Neighborhood Music",
+          0.175
+        ],
+        [
+          "Bring Out the Freak in You",
+          0.168
+        ]
+      ]
+    }
+  ]
+}

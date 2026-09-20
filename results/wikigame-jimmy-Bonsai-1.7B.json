@@ -1,0 +1,540 @@
+{
+  "model": "Bonsai-1.7B",
+  "size_gb": 0.25,
+  "start": "Jimmy Page",
+  "goal": "Microphone",
+  "arrived": true,
+  "path": [
+    "Jimmy Page",
+    "Guitar Player",
+    "Wayback Machine",
+    "Internet Archive",
+    "Web archiving",
+    "Archive",
+    "Document management system",
+    "Records management",
+    "ISO 15489",
+    "International Organization for Standardization",
+    "International Electrotechnical Commission",
+    "Acoustical engineering",
+    "Sound",
+    "Acoustic wave",
+    "Sound pressure",
+    "Microphone"
+  ],
+  "clicks": 15,
+  "decisions": 19,
+  "wall_s": 13.24,
+  "model_s": 2.37,
+  "ms_per_decision": 125,
+  "video": null,
+  "video_end_s": 12.98,
+  "timeline": [
+    {
+      "t": 0.67,
+      "kind": "arrive",
+      "title": "Jimmy Page",
+      "hop": 0
+    },
+    {
+      "t": 0.86,
+      "kind": "decide",
+      "title": "Jimmy Page",
+      "choice": "SCROLL_DOWN",
+      "ms": 178,
+      "options": 25,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.453
+        ],
+        [
+          "It Might Get Loud",
+          0.335
+        ],
+        [
+          "Rock",
+          0.045
+        ]
+      ]
+    },
+    {
+      "t": 1.22,
+      "kind": "decide",
+      "title": "Jimmy Page",
+      "choice": "SCROLL_DOWN",
+      "ms": 94,
+      "options": 25,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.64
+        ],
+        [
+          "Page and Plant",
+          0.066
+        ],
+        [
+          "Coverdale\u2013Page",
+          0.052
+        ]
+      ]
+    },
+    {
+      "t": 1.6,
+      "kind": "decide",
+      "title": "Jimmy Page",
+      "choice": "Guitar Player",
+      "ms": 106,
+      "options": 24,
+      "top": [
+        [
+          "Guitar Player",
+          0.264
+        ],
+        [
+          "milk round",
+          0.145
+        ],
+        [
+          "rockabilly",
+          0.137
+        ]
+      ]
+    },
+    {
+      "t": 2.14,
+      "kind": "arrive",
+      "title": "Guitar Player",
+      "hop": 1
+    },
+    {
+      "t": 2.25,
+      "kind": "decide",
+      "title": "Guitar Player",
+      "choice": "Wayback Machine",
+      "ms": 97,
+      "options": 10,
+      "top": [
+        [
+          "Wayback Machine",
+          0.955
+        ],
+        [
+          "SCROLL_DOWN",
+          0.033
+        ],
+        [
+          "guitarist",
+          0.005
+        ]
+      ]
+    },
+    {
+      "t": 2.64,
+      "kind": "arrive",
+      "title": "Wayback Machine",
+      "hop": 2
+    },
+    {
+      "t": 2.79,
+      "kind": "decide",
+      "title": "Wayback Machine",
+      "choice": "Internet Archive",
+      "ms": 147,
+      "options": 25,
+      "top": [
+        [
+          "Internet Archive",
+          0.658
+        ],
+        [
+          "Wayback Machine (Peabody's Improbable History)",
+          0.096
+        ],
+        [
+          "Mr. Peabody",
+          0.076
+        ]
+      ]
+    },
+    {
+      "t": 3.22,
+      "kind": "arrive",
+      "title": "Internet Archive",
+      "hop": 3
+    },
+    {
+      "t": 3.38,
+      "kind": "decide",
+      "title": "Internet Archive",
+      "choice": "web archive",
+      "ms": 147,
+      "options": 25,
+      "top": [
+        [
+          "web archive",
+          0.942
+        ],
+        [
+          "Internet",
+          0.016
+        ],
+        [
+          "Digital library",
+          0.01
+        ]
+      ]
+    },
+    {
+      "t": 3.78,
+      "kind": "arrive",
+      "title": "Web archiving",
+      "hop": 4
+    },
+    {
+      "t": 3.94,
+      "kind": "decide",
+      "title": "Web archiving",
+      "choice": "archival",
+      "ms": 152,
+      "options": 25,
+      "top": [
+        [
+          "archival",
+          0.223
+        ],
+        [
+          "preserved",
+          0.137
+        ],
+        [
+          "national archives",
+          0.114
+        ]
+      ]
+    },
+    {
+      "t": 4.8,
+      "kind": "arrive",
+      "title": "Archive",
+      "hop": 5
+    },
+    {
+      "t": 4.95,
+      "kind": "decide",
+      "title": "Archive",
+      "choice": "Digital archiving",
+      "ms": 140,
+      "options": 23,
+      "top": [
+        [
+          "Digital archiving",
+          0.406
+        ],
+        [
+          "archive",
+          0.19
+        ],
+        [
+          "libraries",
+          0.177
+        ]
+      ]
+    },
+    {
+      "t": 5.35,
+      "kind": "arrive",
+      "title": "Document management system",
+      "hop": 6
+    },
+    {
+      "t": 5.47,
+      "kind": "decide",
+      "title": "Document management system",
+      "choice": "records management",
+      "ms": 109,
+      "options": 12,
+      "top": [
+        [
+          "records management",
+          0.466
+        ],
+        [
+          "SCROLL_DOWN",
+          0.191
+        ],
+        [
+          "optical character recognition",
+          0.087
+        ]
+      ]
+    },
+    {
+      "t": 5.98,
+      "kind": "arrive",
+      "title": "Records management",
+      "hop": 7
+    },
+    {
+      "t": 6.11,
+      "kind": "decide",
+      "title": "Records management",
+      "choice": "15489-1: 2001",
+      "ms": 118,
+      "options": 11,
+      "top": [
+        [
+          "15489-1: 2001",
+          0.437
+        ],
+        [
+          "organization",
+          0.258
+        ],
+        [
+          "person",
+          0.056
+        ]
+      ]
+    },
+    {
+      "t": 6.82,
+      "kind": "arrive",
+      "title": "ISO 15489",
+      "hop": 8
+    },
+    {
+      "t": 6.93,
+      "kind": "decide",
+      "title": "ISO 15489",
+      "choice": "SCROLL_DOWN",
+      "ms": 99,
+      "options": 1,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          1.0
+        ]
+      ]
+    },
+    {
+      "t": 7.23,
+      "kind": "decide",
+      "title": "ISO 15489",
+      "choice": "SCROLL_DOWN",
+      "ms": 40,
+      "options": 4,
+      "top": [
+        [
+          "SCROLL_DOWN",
+          0.896
+        ],
+        [
+          "Information management",
+          0.068
+        ],
+        [
+          "International Organization for Standardization",
+          0.03
+        ]
+      ]
+    },
+    {
+      "t": 7.53,
+      "kind": "decide",
+      "title": "ISO 15489",
+      "choice": "International Organization for Standardization",
+      "ms": 27,
+      "options": 3,
+      "top": [
+        [
+          "International Organization for Standardization",
+          0.454
+        ],
+        [
+          "Information management",
+          0.44
+        ],
+        [
+          "Information governance",
+          0.106
+        ]
+      ]
+    },
+    {
+      "t": 8.47,
+      "kind": "arrive",
+      "title": "International Organization for Standardization",
+      "hop": 9
+    },
+    {
+      "t": 8.62,
+      "kind": "decide",
+      "title": "International Organization for Standardization",
+      "choice": "International Electrotechnical Commission",
+      "ms": 145,
+      "options": 19,
+      "top": [
+        [
+          "International Electrotechnical Commission",
+          0.464
+        ],
+        [
+          "acronym",
+          0.178
+        ],
+        [
+          "international standard",
+          0.159
+        ]
+      ]
+    },
+    {
+      "t": 9.03,
+      "kind": "arrive",
+      "title": "International Electrotechnical Commission",
+      "hop": 10
+    },
+    {
+      "t": 9.2,
+      "kind": "decide",
+      "title": "International Electrotechnical Commission",
+      "choice": "electroacoustics",
+      "ms": 159,
+      "options": 25,
+      "top": [
+        [
+          "electroacoustics",
+          0.962
+        ],
+        [
+          "Institution of Electrical Engineers",
+          0.021
+        ],
+        [
+          "electromagnetics",
+          0.003
+        ]
+      ]
+    },
+    {
+      "t": 9.85,
+      "kind": "arrive",
+      "title": "Acoustical engineering",
+      "hop": 11
+    },
+    {
+      "t": 10.02,
+      "kind": "decide",
+      "title": "Acoustical engineering",
+      "choice": "sound",
+      "ms": 170,
+      "options": 25,
+      "top": [
+        [
+          "sound",
+          0.4
+        ],
+        [
+          "Chartered Engineer",
+          0.159
+        ],
+        [
+          "acoustics",
+          0.147
+        ]
+      ]
+    },
+    {
+      "t": 10.44,
+      "kind": "arrive",
+      "title": "Sound",
+      "hop": 12
+    },
+    {
+      "t": 10.59,
+      "kind": "decide",
+      "title": "Sound",
+      "choice": "acoustic waves",
+      "ms": 146,
+      "options": 25,
+      "top": [
+        [
+          "acoustic waves",
+          0.554
+        ],
+        [
+          "hearing",
+          0.248
+        ],
+        [
+          "human ear",
+          0.063
+        ]
+      ]
+    },
+    {
+      "t": 10.99,
+      "kind": "arrive",
+      "title": "Acoustic wave",
+      "hop": 13
+    },
+    {
+      "t": 11.15,
+      "kind": "decide",
+      "title": "Acoustic wave",
+      "choice": "acoustic pressure",
+      "ms": 150,
+      "options": 25,
+      "top": [
+        [
+          "acoustic pressure",
+          0.733
+        ],
+        [
+          "sound pressure",
+          0.082
+        ],
+        [
+          "m/s",
+          0.039
+        ]
+      ]
+    },
+    {
+      "t": 12.41,
+      "kind": "arrive",
+      "title": "Sound pressure",
+      "hop": 14
+    },
+    {
+      "t": 12.57,
+      "kind": "decide",
+      "title": "Sound pressure",
+      "choice": "microphone",
+      "ms": 150,
+      "options": 23,
+      "top": [
+        [
+          "microphone",
+          0.942
+        ],
+        [
+          "pressure",
+          0.024
+        ],
+        [
+          "Sound energy density",
+          0.01
+        ]
+      ]
+    },
+    {
+      "t": 12.98,
+      "kind": "arrive",
+      "title": "Microphone",
+      "hop": 15
+    }
+  ]
+}

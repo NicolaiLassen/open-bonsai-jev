@@ -1,0 +1,100 @@
+{"question": "Is the sky blue on a clear day?", "expected": "true"}
+{"question": "Does a spider have two legs?", "expected": "false"}
+{"question": "Is water wet?", "expected": "true"}
+{"question": "Is the sky green on a clear day?", "expected": "false"}
+{"question": "Is fire hot?", "expected": "true"}
+{"question": "Is fire cold?", "expected": "false"}
+{"question": "Is ice cold?", "expected": "true"}
+{"question": "Do fish live on the Moon?", "expected": "false"}
+{"question": "Does the sun rise in the east?", "expected": "true"}
+{"question": "Is 2 plus 2 equal to 7?", "expected": "false"}
+{"question": "Is Paris the capital of France?", "expected": "true"}
+{"question": "Is London the capital of Japan?", "expected": "false"}
+{"question": "Is Tokyo in Japan?", "expected": "true"}
+{"question": "Do cats have wings?", "expected": "false"}
+{"question": "Do birds have feathers?", "expected": "true"}
+{"question": "Does a week have forty days?", "expected": "false"}
+{"question": "Do fish live in water?", "expected": "true"}
+{"question": "Is the Sun smaller than the Earth?", "expected": "false"}
+{"question": "Is 2 plus 2 equal to 4?", "expected": "true"}
+{"question": "Do humans breathe underwater without equipment?", "expected": "false"}
+{"question": "Is 10 greater than 5?", "expected": "true"}
+{"question": "Is snow black?", "expected": "false"}
+{"question": "Is a week seven days?", "expected": "true"}
+{"question": "Is a rock alive?", "expected": "false"}
+{"question": "Does a year have twelve months?", "expected": "true"}
+{"question": "Does a triangle have five sides?", "expected": "false"}
+{"question": "Is the Earth round?", "expected": "true"}
+{"question": "Is the Sahara an ocean?", "expected": "false"}
+{"question": "Do humans need oxygen?", "expected": "true"}
+{"question": "Do cows lay eggs?", "expected": "false"}
+{"question": "Is snow white?", "expected": "true"}
+{"question": "Is water dry?", "expected": "false"}
+{"question": "Are bananas a fruit?", "expected": "true"}
+{"question": "Is a bicycle a kind of fish?", "expected": "false"}
+{"question": "Is a dog an animal?", "expected": "true"}
+{"question": "Is salt sweet?", "expected": "false"}
+{"question": "Does a triangle have three sides?", "expected": "true"}
+{"question": "Do dogs have six legs?", "expected": "false"}
+{"question": "Is the Pacific an ocean?", "expected": "true"}
+{"question": "Is Mount Everest a lake?", "expected": "false"}
+{"question": "Do cows produce milk?", "expected": "true"}
+{"question": "Is the number 8 odd?", "expected": "false"}
+{"question": "Is gold a metal?", "expected": "true"}
+{"question": "Do trees walk?", "expected": "false"}
+{"question": "Is the Moon smaller than the Sun?", "expected": "true"}
+{"question": "Is ice hotter than fire?", "expected": "false"}
+{"question": "Do plants need sunlight to grow?", "expected": "true"}
+{"question": "Does a hammer run on petrol?", "expected": "false"}
+{"question": "Is a spider an arachnid?", "expected": "true"}
+{"question": "Do bees produce petrol?", "expected": "false"}
+{"question": "Does a bicycle have wheels?", "expected": "true"}
+{"question": "Is blood blue when it leaves the body?", "expected": "false"}
+{"question": "Is salt salty?", "expected": "true"}
+{"question": "Is coal white?", "expected": "false"}
+{"question": "Is sugar sweet?", "expected": "true"}
+{"question": "Does a piano have exactly three keys?", "expected": "false"}
+{"question": "Do cats have whiskers?", "expected": "true"}
+{"question": "Is Rome the capital of Brazil?", "expected": "false"}
+{"question": "Is Mount Everest a mountain?", "expected": "true"}
+{"question": "Do sharks live in trees?", "expected": "false"}
+{"question": "Is English a language?", "expected": "true"}
+{"question": "Is 5 greater than 10?", "expected": "false"}
+{"question": "Do humans have two eyes?", "expected": "true"}
+{"question": "Is a metre longer than a kilometre?", "expected": "false"}
+{"question": "Is winter colder than summer?", "expected": "true"}
+{"question": "Do elephants fly by flapping their ears?", "expected": "false"}
+{"question": "Does a clock tell time?", "expected": "true"}
+{"question": "Is a year two days long?", "expected": "false"}
+{"question": "Is a hammer a tool?", "expected": "true"}
+{"question": "Do plants grow faster in total darkness?", "expected": "false"}
+{"question": "Do bees make honey?", "expected": "true"}
+{"question": "Is gold a liquid at room temperature?", "expected": "false"}
+{"question": "Is blood red?", "expected": "true"}
+{"question": "Is the Moon made of cheese?", "expected": "false"}
+{"question": "Is coal black?", "expected": "true"}
+{"question": "Do humans have three eyes?", "expected": "false"}
+{"question": "Does a piano have keys?", "expected": "true"}
+{"question": "Is summer colder than winter?", "expected": "false"}
+{"question": "Is Rome in Italy?", "expected": "true"}
+{"question": "Is a violin a type of bread?", "expected": "false"}
+{"question": "Do sharks live in the sea?", "expected": "true"}
+{"question": "Does a clock measure weight?", "expected": "false"}
+{"question": "Is a square a shape?", "expected": "true"}
+{"question": "Are bananas a kind of metal?", "expected": "false"}
+{"question": "Does a car need fuel or electricity to move?", "expected": "true"}
+{"question": "Is a dog a mineral?", "expected": "false"}
+{"question": "Is milk a liquid?", "expected": "true"}
+{"question": "Is the Pacific a desert?", "expected": "false"}
+{"question": "Do trees have leaves?", "expected": "true"}
+{"question": "Do birds have scales instead of feathers?", "expected": "false"}
+{"question": "Is a violin a musical instrument?", "expected": "true"}
+{"question": "Is English a species of bird?", "expected": "false"}
+{"question": "Is the number 7 odd?", "expected": "true"}
+{"question": "Does a car float on air by default?", "expected": "false"}
+{"question": "Is 100 greater than 99?", "expected": "true"}
+{"question": "Is milk a solid at room temperature?", "expected": "false"}
+{"question": "Do elephants have trunks?", "expected": "true"}
+{"question": "Do sharks have feathers?", "expected": "false"}
+{"question": "Is a kilometre longer than a metre?", "expected": "true"}
+{"question": "Is 100 less than 99?", "expected": "false"}
